@@ -1,0 +1,26 @@
+# style=PATH
+# color=PATH
+show = drun
+width = 700
+height = 400
+prompt = play celeste
+x = 0
+y = 100
+allow_images = true
+image_size = 48
+allow_markup = true
+# matching = contains
+insensitive = true
+location = top
+
+# lines = 10
+# columns = 1
+sort_order = alphabetical
+
+# orientation = vertical
+# halign = fill
+content_halign = fill
+# valign = start
+# line_wrap = word
+dynamic_lines = true
+# hide_search = true

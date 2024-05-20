@@ -1,0 +1,91 @@
+    OpenRGB v0.9
+    Commit: 11a4eac71fdeb90356b4e68249723fc97af3d110 from 2023-07-10 05:52:54 -0500
+    Launched: 20230814_071030
+====================================================================================================
+
+1001  |Info:    Saving detector settings
+1002  |Info:    ------------------------------------------------------
+1002  |Info:    |               Start device detection               |
+1002  |Info:    ------------------------------------------------------
+1002  |Info:    Initializing HID interfaces: Success
+1009  |Info:    ------------------------------------------------------
+1009  |Info:    |             Detecting I2C interfaces               |
+1009  |Info:    ------------------------------------------------------
+1009  |Info:    Registering I2C interface: /dev/i2c-3 Device 0000:0000 Subsystem: 0000:0000
+1009  |Info:    Registering I2C interface: /dev/i2c-8 Device 10DE:2786 Subsystem: 1462:5136
+1009  |Info:    Registering I2C interface: /dev/i2c-4 Device 10DE:2786 Subsystem: 1462:5136
+1009  |Info:    Registering I2C interface: /dev/i2c-0 Device 8086:7A23 Subsystem: 1043:8882
+1009  |Info:    Registering I2C interface: /dev/i2c-7 Device 10DE:2786 Subsystem: 1462:5136
+1009  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1009  |Info:    Registering I2C interface: /dev/i2c-MSFT8000:00 Device 0000:0000 Subsystem: 0000:0000
+1009  |Info:    ------------------------------------------------------
+1009  |Info:    |               Detecting I2C devices                |
+1009  |Info:    ------------------------------------------------------
+1295  |Info:    ------------------------------------------------------
+1295  |Info:    |               Detecting I2C PCI devices            |
+1295  |Info:    ------------------------------------------------------
+1295  |Info:    [MSI GeForce RTX 4070 12GB Gaming X Trio] Registering RGB controller
+1295  |Info:    ------------------------------------------------------
+1295  |Info:    |               Detecting HID devices                |
+1295  |Info:    ------------------------------------------------------
+1375  |Info:    [ASUS PRIME Z790-A WIFI] Registering RGB controller
+1770  |Info:    [Candy companion chip] Registering RGB controller
+3776  |Warning: [G502 LIGHTSPEED Wireless Gaming Mouse] Effect at index - 00 not added: Value FF00 unrecognised
+3776  |Warning: [G502 LIGHTSPEED Wireless Gaming Mouse] Effect at index - 01 not added: Value FF00 unrecognised
+3776  |Warning: [G502 LIGHTSPEED Wireless Gaming Mouse] Effect at index - 03 not added: Value FF00 unrecognised
+3776  |Info:    [G502 LIGHTSPEED Wireless Gaming Mouse] Registering RGB controller
+3776  |Info:    ------------------------------------------------------
+3776  |Info:    |            Detecting libusb HID devices            |
+3776  |Info:    ------------------------------------------------------
+3799  |Info:    ------------------------------------------------------
+3800  |Info:    |              Detecting other devices               |
+3800  |Info:    ------------------------------------------------------
+3806  |Info:    ------------------------------------------------------
+3806  |Info:    |                Detection completed                 |
+3806  |Info:    ------------------------------------------------------
+3806  |Dialog:  <h2>WARNING:</h2><p>One or more I2C/SMBus interfaces failed to initialize.</p><p>RGB DRAM modules and some motherboards' onboard RGB lighting will not be available without I2C/SMBus.</p><p>On Linux, this is usually because the i2c-dev module is not loaded.  You must load the i2c-dev module along with the correct i2c driver for your motherboard.  This is usually i2c-piix4 for AMD systems and i2c-i801 for Intel systems.</p><p>See <a href='https://help.openrgb.org/'>help.openrgb.org</a> for additional troubleshooting steps if you keep seeing this message.<br></p>
+174642|Info:    ------------------------------------------------------
+174642|Info:    |               Start device detection               |
+174642|Info:    ------------------------------------------------------
+174642|Info:    Initializing HID interfaces: Success
+174655|Info:    ------------------------------------------------------
+174655|Info:    |             Detecting I2C interfaces               |
+174655|Info:    ------------------------------------------------------
+174655|Info:    Registering I2C interface: /dev/i2c-3 Device 0000:0000 Subsystem: 0000:0000
+174655|Info:    Registering I2C interface: /dev/i2c-8 Device 10DE:2786 Subsystem: 1462:5136
+174655|Info:    Registering I2C interface: /dev/i2c-4 Device 10DE:2786 Subsystem: 1462:5136
+174655|Info:    Registering I2C interface: /dev/i2c-0 Device 8086:7A23 Subsystem: 1043:8882
+174655|Info:    Registering I2C interface: /dev/i2c-7 Device 10DE:2786 Subsystem: 1462:5136
+174656|Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+174656|Info:    Registering I2C interface: /dev/i2c-MSFT8000:00 Device 0000:0000 Subsystem: 0000:0000
+174656|Info:    ------------------------------------------------------
+174656|Info:    |               Detecting I2C devices                |
+174656|Info:    ------------------------------------------------------
+174943|Info:    ------------------------------------------------------
+174943|Info:    |               Detecting I2C PCI devices            |
+174943|Info:    ------------------------------------------------------
+174943|Info:    [MSI GeForce RTX 4070 12GB Gaming X Trio] Registering RGB controller
+174944|Info:    ------------------------------------------------------
+174944|Info:    |               Detecting HID devices                |
+174944|Info:    ------------------------------------------------------
+175028|Info:    [ASUS PRIME Z790-A WIFI] Registering RGB controller
+175435|Info:    [Candy companion chip] Registering RGB controller
+178980|Info:    [G502 LIGHTSPEED Wireless Gaming Mouse] Registering RGB controller
+178980|Info:    ------------------------------------------------------
+178980|Info:    |            Detecting libusb HID devices            |
+178980|Info:    ------------------------------------------------------
+178987|Info:    ------------------------------------------------------
+178987|Info:    |              Detecting other devices               |
+178987|Info:    ------------------------------------------------------
+178988|Info:    ------------------------------------------------------
+178988|Info:    |                Detection completed                 |
+178988|Info:    ------------------------------------------------------
+178988|Dialog:  <h2>WARNING:</h2><p>One or more I2C/SMBus interfaces failed to initialize.</p><p>RGB DRAM modules and some motherboards' onboard RGB lighting will not be available without I2C/SMBus.</p><p>On Linux, this is usually because the i2c-dev module is not loaded.  You must load the i2c-dev module along with the correct i2c driver for your motherboard.  This is usually i2c-piix4 for AMD systems and i2c-i801 for Intel systems.</p><p>See <a href='https://help.openrgb.org/'>help.openrgb.org</a> for additional troubleshooting steps if you keep seeing this message.<br></p>
+336826|Info:    Found file: Green.orp attempting to validate header
+336826|Info:    Valid v4 profile found for Green
+339115|Info:    Profile loading: Succeeded for MSI GeForce RTX 4070 12GB Gaming X Trio @ I2C: /dev/i2c-4, address 0x68
+339115|Info:    Profile loading: Succeeded for ASUS PRIME Z790-A WIFI @ HID: /dev/hidraw0
+339115|Info:    Profile loading: Succeeded for Candy companion chip @ HID: /dev/hidraw7 (Receiver) 
+Wireless Index: 255
+339115|Info:    Profile loading: Succeeded for G502 LIGHTSPEED Wireless Gaming Mouse @ HID: /dev/hidraw6 (Receiver) 
+Wireless Index: 255

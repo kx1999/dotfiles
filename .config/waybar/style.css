@@ -1,0 +1,190 @@
+* {
+    font-family: "Hack";
+    font-weight: 400;
+    min-height: 0;
+    font-size: 100%;
+    font-feature-settings: '"zero", "ss01", "ss02", "ss03", "ss04", "ss05", "cv31"';
+    padding: 1px;
+    margin: 1px;
+}
+
+@keyframes gradient_f {
+    0% {color: rgba(85,255,170,1); border-color: rgba(85,255,170,1) transparent;}
+    50% {color: rgba(85,255,170,0.75); border-color: rgba(85,255,170,0.5) transparent;}
+    100% {color: rgba(85,255,170,1); border-color: rgba(85,255,170,1) transparent;}
+}
+
+@keyframes gradient_hover {
+    0% {color: rgba(112,232,255,1); border-color: rgba(112,232,255,1) transparent;}
+    50% {color: rgba(112,232,255,0.75); border-color: rgba(112,232,255,0.5) transparent;}
+    100% {color: rgba(112,232,255,1); border-color: rgba(112,232,255,1) transparent;}
+}
+
+@keyframes pulse_urgent {
+    0% {color: rgba(255,51,51,1); border-color: rgba(255,51,51,1) transparent;}
+    100% {color: rgba(255,51,51,0.85); border-color: rgba(255,51,51,0.5) transparent;}
+}
+
+/* -------- GENERAL MODULES CONFIG -------- */
+/* -------- LEFT GROUP -------- */
+#submap, #idle_inhibitor, #workspaces, #tray {
+    color: #ffffff;
+    background: rgba(21, 29, 43, 0.35);
+    border-width: 1px 5px;
+    border-style: solid;
+    border-radius: 0px 35px 0px 35px;
+    padding: 0px 16px 0px 16px;
+    margin-bottom: 0px;
+}
+
+/* -------- RIGHT GROUP -------- */
+#custom-weather, #motherboard, #custom-power, #audio{
+    color: #ffffff;
+    background: rgba(21, 29, 43, 0.35);
+    border-width: 1px 5px;
+    border-style: solid;
+    border-radius: 35px 0px 35px 0px;
+    padding: 0px 16px 0px 16px;
+}
+
+#clock {
+    color: #ffffff;
+    background: rgba(21, 29, 43, 0.35);
+    border-width: 1px 7px;
+    border-style: solid;
+    border-radius: 0px 0px 75px 75px;
+    border-color: #D23AD7;
+    font-size: 130%;
+    font-weight: normal;
+    padding: 0px 25px;
+}
+
+window#waybar {
+    background-color: transparent;
+}
+
+window#waybar.hidden {
+    opacity: 0.15;
+}
+
+window#waybar.empty {
+    background-color: transparent;
+}
+
+window#waybar.empty #window {
+    border: 0px;
+    background-color: rgba(21, 29, 43, 0.75);
+}
+
+tooltip {
+    color: #E747C2;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+tooltip label {
+    color: #E747C2;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+#workspaces {
+    border-color: #B629F2;
+    padding: 5px 8px;
+}
+
+#workspaces button {
+    color: #ffffff;
+    border-width: 1px 4px;
+    border-color: transparent;
+    box-shadow: none;
+    text-shadow: none;
+    border-radius: 0px 25px 0px 25px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-left: 4px;
+    margin-right: 4px;
+    transition: all 0.2s cubic-bezier(0.1,0.5,0.1,1.8);
+}
+
+#workspaces button.active {
+    color: rgba(85,255,170,1);
+    border-color: rgba(85,255,170,1) transparent;
+    padding-left: 11px;
+    padding-right: 11px;
+    animation: gradient_f 4s infinite normal linear both;
+    transition: all 0.3s cubic-bezier(0.1,0.5,0.1,1.8);
+}
+
+#workspaces button.focused {
+    color: #00ff00;
+}
+
+#workspaces button.urgent {
+    padding-left: 12px;
+    padding-right: 12px;
+    color: #ff3333;
+    border-color: rgba(255,51,51,1) transparent;
+    animation: pulse_urgent 0.5s infinite normal ease-out both;
+    transition: all 0.3s cubic-bezier(0.1,0.5,0.1,1.8);
+}
+
+#workspaces button:hover {
+    color: #70e8ff;
+    background: transparent;
+    border-radius: 5px 30px 5px 30px;
+    border-color: rgba(112,232,255,0.5) transparent;
+    padding-left: 11px;
+    padding-right: 11px;
+    transition: all 0.3s cubic-bezier(0.1,0.5,0.1,1.8);
+    animation: gradient_hover 1s infinite normal linear both;
+}
+
+#tray {
+    border-color: #A822FB;
+}
+
+#submap {
+    border-color: #BA2CEF;
+    transition: all 0.5s cubic-bezier(0.1,0.5,0.1,1.8);
+}
+
+#idle_inhibitor {
+    border-color: #AA22FF;
+    transition: color 0.5s, border 0.5s;
+    transition-timing-function: cubic-bezier(0.1,0.5,0.1,1.8);
+}
+
+#custom-weather {
+    border-color: #EA48BF;
+}
+
+#motherboard {
+    border-color: #EF4CBA;
+}
+
+#audio {
+    border-color: #FB52AE;
+}
+
+#pulseaudio {
+    border-color: #F34EB6;
+}
+
+#cava {
+    border-color: #FA50B0;
+}
+#custom-playerctl {
+    border-color: #FB52AE;
+}
+
+#idle_inhibitor.activated {
+    border-color: #FF0060;
+    color: #FF66A0;
+}
+
+#custom-power {
+    padding-top: 5px;
+    background: rgba(21,29,43,0.5);
+    color: #FF0060;
+}

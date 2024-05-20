@@ -1,0 +1,51 @@
+- 1.1.13
+- _NAME: G502 X PLUS
+  _absent: [hi-res-scroll, lowres-scroll-mode, scroll-ratchet, smart-shift, thumb-scroll-invert, thumb-scroll-mode, report_rate_extended, pointer_speed,
+    dpi_extended, speed-change, backlight, backlight_level, backlight_duration_hands_out, backlight_duration_hands_in, backlight_duration_powered, backlight-timed,
+    led_control, led_zone_, brightness_control, fn-swap, reprogrammable-keys, persistent-remappable-keys, divert-keys, disable-keyboard-keys, crown-smooth,
+    divert-crown, divert-gkeys, m-key-leds, mr-key-led, multiplatform, change-host, gesture2-gestures, gesture2-divert, gesture2-params, sidetone, equalizer,
+    adc_power_management]
+  _battery: 4100
+  _modelId: 4099C0950000
+  _sensitive: {dpi: false, hires-scroll-mode: false, hires-smooth-invert: false, hires-smooth-resolution: false, onboard_profiles: false, per-key-lighting: false,
+    report_rate: false, rgb_control: false, rgb_zone_1: true}
+  _serial: 2599FE90
+  _unitId: 2599FE90
+  _wpid: '4099'
+  dpi: 800
+  hires-scroll-mode: false
+  hires-smooth-invert: false
+  hires-smooth-resolution: false
+  onboard_profiles: 1
+  per-key-lighting: {1: 10494192, 2: 10494192, 3: 10494192, 4: 10494192, 5: 10494192, 6: 10494192, 7: 10494192, 8: 10494192}
+  report_rate: 1
+  rgb_control: 1
+  rgb_zone_1: !LEDEffectSetting {ID: 1, color: 10494192, intensity: 100, period: 5000, ramp: 0, speed: 0}
+- _NAME: G Powerplay
+  _modelId: 405F00000000
+  _sensitive: {hires-scroll-mode: ignore, hires-smooth-invert: ignore, hires-smooth-resolution: ignore, led_control: false, led_zone_2: false}
+  _serial: 75FC92CE
+  _unitId: '30384703'
+  _wpid: 405F
+  led_control: 1
+  led_zone_2: !LEDEffectSetting {ID: 1, color: 65535, intensity: 0, period: 100, ramp: 0, speed: 0}
+- _NAME: G Powerplay
+  _sensitive: {hires-scroll-mode: ignore, hires-smooth-invert: ignore, hires-smooth-resolution: ignore}
+  _wpid: 405F
+- _NAME: MX Master 3S
+  _modelId: B03400000000
+  _sensitive: {dpi: false, hires-smooth-resolution: true, thumb-scroll-invert: false}
+  _serial: AB53E999
+  _unitId: AB53E999
+  _wpid: B034
+  change-host: null
+  divert-keys: {82: 0, 83: 0, 86: 0, 195: 0, 196: 0}
+  dpi: 800
+  hires-scroll-mode: false
+  hires-smooth-invert: false
+  hires-smooth-resolution: false
+  reprogrammable-keys: {80: 80, 81: 81, 82: 82, 83: 83, 86: 86, 195: 195, 196: 196}
+  scroll-ratchet: 2
+  smart-shift: 10
+  thumb-scroll-invert: true
+  thumb-scroll-mode: false

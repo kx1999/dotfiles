@@ -1,0 +1,74 @@
+    OpenRGB v0.9
+    Commit:  from 
+    Launched: 20240408_202503
+====================================================================================================
+
+0     |Info:    Found file: Green.orp attempting to validate header
+0     |Info:    Valid v4 profile found for Green
+0     |Info:    Found file: Teal.orp attempting to validate header
+0     |Info:    Valid v4 profile found for Teal
+0     |Info:    Found file: Lavender.orp attempting to validate header
+0     |Info:    Valid v4 profile found for Lavender
+1001  |Info:    ------------------------------------------------------
+1001  |Info:    |               Start device detection               |
+1001  |Info:    ------------------------------------------------------
+1001  |Info:    Initializing HID interfaces: Success
+1006  |Info:    ------------------------------------------------------
+1006  |Info:    |             Detecting I2C interfaces               |
+1006  |Info:    ------------------------------------------------------
+1006  |Info:    Registering I2C interface: /dev/i2c-3 Device 10DE:2786 Subsystem: 1462:5136
+1006  |Info:    Registering I2C interface: /dev/i2c-1 Device 10DE:2786 Subsystem: 1462:5136
+1006  |Info:    Registering I2C interface: /dev/i2c-8 Device 0000:0000 Subsystem: 0000:0000
+1006  |Info:    Registering I2C interface: /dev/i2c-6 Device 8086:7A23 Subsystem: 1043:8882
+1006  |Info:    Registering I2C interface: /dev/i2c-4 Device 10DE:2786 Subsystem: 1462:5136
+1006  |Info:    Registering I2C interface: /dev/i2c-2 Device 10DE:2786 Subsystem: 1462:5136
+1006  |Info:    Registering I2C interface: /dev/i2c-0 Device 10DE:2786 Subsystem: 1462:5136
+1006  |Info:    Registering I2C interface: /dev/i2c-9 Device 0000:0000 Subsystem: 0000:0000
+1006  |Info:    Registering I2C interface: /dev/i2c-7 Device 0000:0000 Subsystem: 0000:0000
+1006  |Info:    Registering I2C interface: /dev/i2c-5 Device 10DE:2786 Subsystem: 1462:5136
+1006  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1006  |Info:    Registering I2C interface: /dev/i2c-MSFT8000:00 Device 0000:0000 Subsystem: 0000:0000
+1006  |Info:    ------------------------------------------------------
+1006  |Info:    |               Detecting I2C devices                |
+1006  |Info:    ------------------------------------------------------
+1285  |Info:    [ASUS Aura Motherboard] Registering RG1582  |Info: 1640  |Info:    [ASUS Aura Motherboard] R11838 |Info:    ----------13752 |Info:    ------------------------------------------------------
+13752 |Info:    |               Detecting I2C PCI devices            |
+13752 |Info:    ------------------------------------------------------
+13752 |Info:    [MSI GeForce RTX 4070 12GB Gaming X Trio] Registering RGB controller
+13753 |Info:    ------------------------------------------------------
+13753 |Info:    |               Detecting HID devices                |
+13753 |Info:    ------------------------------------------------------
+13778 |Info:    [ASUS PRIME Z790-A WIFI] Registering RGB controller
+14175 |Info:    [Candy companion chip] Registering RGB controller
+14528 |Info:    Unable add this Logitech device: Not Connected
+14883 |Info:    Unable add this Logitech device: Not Connected
+15237 |Info:    Unable add this Logitech device: Not Connected
+15591 |Info:    Unable add this Logitech device: Not Connected
+15945 |Info:    Unable add this Logitech device: Not Connected
+16299 |Info:    Unable add this Logitech device: Not Connected
+16652 |Info:    Unable add this Logitech device: Not Connected
+17005 |Info:    Unable add this Logitech device: Not Connected
+17358 |Info:    Unable add this Logitech device: Not Connected
+17711 |Info:    Unable add this Logitech device: Not Connected
+17711 |Info:    ------------------------------------------------------
+17711 |Info:    |            Detecting libusb HID devices            |
+17711 |Info:    ------------------------------------------------------
+17733 |Info:    ------------------------------------------------------
+17733 |Info:    |              Detecting other devices               |
+17733 |Info:    ------------------------------------------------------
+17733 |Info:    ------------------------------------------------------
+17733 |Info:    |                Detection completed                 |
+17733 |Info:    ------------------------------------------------------
+17733 |Dialog:  <h2>WARNING:</h2><p>One or more I2C/SMBus interfaces failed to initialize.</p><p>RGB DRAM modules and some motherboards' onboard RGB lighting will not be available without I2C/SMBus.</p><p>On Linux, this is usually because the i2c-dev module is not loaded.  You must load the i2c-dev module along with the correct i2c driver for your motherboard.  This is usually i2c-piix4 for AMD systems and i2c-i801 for Intel systems.</p><p>See <a href='https://help.openrgb.org/'>help.openrgb.org</a> for additional troubleshooting steps if you keep seeing this message.<br></p>
+ading: FAILED! for ENE DRAM @ I2C: /dev/i2c-6, address 0x71
+16083 |Info:    Profile loading: FAILED! for ENE DRAM @ I2C: /dev/i2c-6, address 0x73
+16083 |Info:    Profile loading: Succeeded for MSI GeForce RTX 4070 12GB Gaming X Trio @ I2C: /dev/i2c-0, address 0x68
+16083 |Info:    Profile loading: Succeeded for ASUS PRIME Z790-A WIFI @ HID: /dev/hidraw0
+16083 |Info:    Profile loading: Succeeded for Candy companion chip @ HID: /dev/hidraw6 (Receiver) 
+Wireless Index: 255
+23357129|Info:    Profile loading: FAILED! for ENE DRAM @ I2C: /dev/i2c-6, address 0x71
+23357129|Info:    Profile loading: FAILED! for ENE DRAM @ I2C: /dev/i2c-6, address 0x73
+23357129|Info:    Profile loading: Succeeded for MSI GeForce RTX 4070 12GB Gaming X Trio @ I2C: /dev/i2c-0, address 0x68
+23357129|Info:    Profile loading: Succeeded for ASUS PRIME Z790-A WIFI @ HID: /dev/hidraw0
+23357129|Info:    Profile loading: Succeeded for Candy companion chip @ HID: /dev/hidraw6 (Receiver) 
+Wireless Index: 255

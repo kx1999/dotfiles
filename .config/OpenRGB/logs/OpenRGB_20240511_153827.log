@@ -1,0 +1,139 @@
+    OpenRGB v0.91
+    Commit: c60539cb6228808ec61837f7fd6b9cc18c338958 from 2024-05-09 11:56:22 -0500
+    Launched: 20240511_153827
+====================================================================================================
+
+0     |Info:    Found file: Green.orp attempting to validate header
+0     |Info:    Valid v4 profile found for Green
+0     |Info:    Found file: Teal.orp attempting to validate header
+0     |Info:    Valid v4 profile found for Teal
+0     |Info:    Found file: Lavender.orp attempting to validate header
+0     |Info:    Valid v4 profile found for Lavender
+1001  |Info:    Saving detector settings
+1002  |Info:    Initializing HID interfaces: Success
+1002  |Info:    ------------------------------------------------------
+1002  |Info:    |               Start device detection               |
+1002  |Info:    ------------------------------------------------------
+1005  |Info:    ------------------------------------------------------
+1005  |Info:    |             Detecting I2C interfaces               |
+1005  |Info:    ------------------------------------------------------
+1005  |Info:    Registering I2C interface: /dev/i2c-3 Device 0000:0000 Subsystem: 0000:0000
+1005  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1006  |Info:    Registering I2C interface: /dev/i2c-10 Device 0000:0000 Subsystem: 0000:0000
+1006  |Info:    Registering I2C interface: /dev/i2c-1 Device 0000:0000 Subsystem: 0000:0000
+1006  |Info:    Registering I2C interface: /dev/i2c-8 Device 1002:744C Subsystem: 1DA2:E475
+1006  |Info:    Registering I2C interface: /dev/i2c-6 Device 1002:744C Subsystem: 1DA2:E475
+1006  |Info:    Registering I2C interface: /dev/i2c-4 Device 1002:744C Subsystem: 1DA2:E475
+1006  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1006  |Info:    Registering I2C interface: /dev/i2c-11 Device 0000:0000 Subsystem: 0000:0000
+1006  |Info:    Registering I2C interface: /dev/i2c-2 Device 0000:0000 Subsystem: 0000:0000
+1006  |Info:    Registering I2C interface: /dev/i2c-0 Device 8086:7A23 Subsystem: 1043:8882
+1006  |Info:    Registering I2C interface: /dev/i2c-9 Device 1002:744C Subsystem: 1DA2:E475
+1006  |Info:    Registering I2C interface: /dev/i2c-7 Device 1002:744C Subsystem: 1DA2:E475
+1006  |Info:    Registering I2C interface: /dev/i2c-5 Device 1002:744C Subsystem: 1DA2:E475
+1006  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1006  |Info:    Registering I2C interface: /dev/i2c-MSFT8000:00 Device 0000:0000 Subsystem: 0000:0000
+1006  |Info:    ------------------------------------------------------
+1006  |Info:    |               Detecting I2C devices                |
+1006  |Info:    ------------------------------------------------------
+1183  |Info:    [ENE DRAM] Registering RGB controller
+1356  |Info:    [ENE DRAM] Registering RGB controller
+10220 |Info:    ------------------------------------------------------
+10220 |Info:    |               Detecting I2C PCI devices            |
+10220 |Info:    ------------------------------------------------------
+10261 |Info:    ------------------------------------------------------
+10261 |Info:    |               Detecting HID devices                |
+10261 |Info:    ------------------------------------------------------
+10344 |Info:    [ASUS PRIME Z790-A WIFI] Registering RGB controller
+10750 |Info:    [Candy companion chip] Registering RGB controller
+10751 |Info:    ------------------------------------------------------
+10751 |Info:    |            Detecting libusb HID devices            |
+10751 |Info:    ------------------------------------------------------
+10762 |Info:    ------------------------------------------------------
+10762 |Info:    |              Detecting other devices               |
+10762 |Info:    ------------------------------------------------------
+10765 |Info:    ------------------------------------------------------
+10765 |Info:    |                Detection completed                 |
+10765 |Info:    ------------------------------------------------------
+10765 |Dialog:  <h2>Some internal devices may not be detected:</h2><p>One or more I2C or SMBus interfaces failed to initialize.</p><p><b>RGB DRAM modules, some motherboards' onboard RGB lighting, and RGB Graphics Cards, will not be available in OpenRGB</b> without I2C or SMBus.</p><h4>How to fix this:</h4><p>On Linux, this is usually because the i2c-dev module is not loaded.</p><p>You must load the i2c-dev module along with the correct i2c driver for your motherboard. This is usually i2c-piix4 for AMD systems and i2c-i801 for Intel systems.</p><p>See <a href='https://help.openrgb.org/'>help.openrgb.org</a> for additional troubleshooting steps if you keep seeing this message.<br></p><h3>If you are not using internal RGB on a desktop this message is not important to you.</h3>
+51067 |Info:    Profile loading: FAILED! for ENE DRAM @ I2C: /dev/i2c-0, address 0x71
+51067 |Info:    Profile loading: FAILED! for ENE DRAM @ I2C: /dev/i2c-0, address 0x73
+51067 |Info:    Profile loading: FAILED! for ASUS PRIME Z790-A WIFI @ HID: /dev/hidraw0
+51067 |Info:    Profile loading: Succeeded for Candy companion chip @ HID: /dev/hidraw7 (Receiver) 
+Wireless Index: 255
+86663 |Info:    Profile loading: FAILED! for ENE DRAM @ I2C: /dev/i2c-0, address 0x71
+86663 |Info:    Profile loading: FAILED! for ENE DRAM @ I2C: /dev/i2c-0, address 0x73
+86663 |Info:    Profile loading: FAILED! for ASUS PRIME Z790-A WIFI @ HID: /dev/hidraw0
+86663 |Info:    Profile loading: Succeeded for Candy companion chip @ HID: /dev/hidraw7 (Receiver) 
+Wireless Index: 255
+118553|Info:    Found file: Green.orp attempting to validate header
+118553|Info:    Valid v4 profile found for Green
+118553|Info:    Found file: Teal.orp attempting to validate header
+118553|Info:    Valid v4 profile found for Teal
+118553|Info:    Found file: Lavender.orp attempting to validate header
+118553|Info:    Valid v4 profile found for Lavender
+134241|Info:    Found file: Green.orp attempting to validate header
+134241|Info:    Valid v4 profile found for Green
+134241|Info:    Found file: Teal.orp attempting to validate header
+134241|Info:    Valid v4 profile found for Teal
+134241|Info:    Found file: Lavender.orp attempting to validate header
+134241|Info:    Valid v4 profile found for Lavender
+142045|Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-0, address 0x71
+142045|Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-0, address 0x73
+142045|Info:    Profile loading: Succeeded for ASUS PRIME Z790-A WIFI @ HID: /dev/hidraw0
+142045|Info:    Profile loading: Succeeded for Candy companion chip @ HID: /dev/hidraw7 (Receiver) 
+Wireless Index: 255
+142928|Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-0, address 0x71
+142928|Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-0, address 0x73
+142928|Info:    Profile loading: Succeeded for ASUS PRIME Z790-A WIFI @ HID: /dev/hidraw0
+142928|Info:    Profile loading: Succeeded for Candy companion chip @ HID: /dev/hidraw7 (Receiver) 
+Wireless Index: 255
+143135|Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-0, address 0x71
+143135|Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-0, address 0x73
+143135|Info:    Profile loading: Succeeded for ASUS PRIME Z790-A WIFI @ HID: /dev/hidraw0
+143135|Info:    Profile loading: Succeeded for Candy companion chip @ HID: /dev/hidraw7 (Receiver) 
+Wireless Index: 255
+143279|Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-0, address 0x71
+143279|Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-0, address 0x73
+143279|Info:    Profile loading: Succeeded for ASUS PRIME Z790-A WIFI @ HID: /dev/hidraw0
+143279|Info:    Profile loading: Succeeded for Candy companion chip @ HID: /dev/hidraw7 (Receiver) 
+Wireless Index: 255
+186128|Info:    Found file: Green.orp attempting to validate header
+186128|Info:    Valid v4 profile found for Green
+186128|Info:    Found file: Teal.orp attempting to validate header
+186128|Info:    Valid v4 profile found for Teal
+186128|Info:    Found file: Lavender.orp attempting to validate header
+186128|Info:    Valid v4 profile found for Lavender
+201711|Info:    Found file: Green.orp attempting to validate header
+201711|Info:    Valid v4 profile found for Green
+201711|Info:    Found file: Teal.orp attempting to validate header
+201711|Info:    Valid v4 profile found for Teal
+201711|Info:    Found file: Lavender.orp attempting to validate header
+201711|Info:    Valid v4 profile found for Lavender
+290475|Info:    Found file: Green.orp attempting to validate header
+290475|Info:    Valid v4 profile found for Green
+290475|Info:    Found file: Teal.orp attempting to validate header
+290475|Info:    Valid v4 profile found for Teal
+290475|Info:    Found file: Lavender.orp attempting to validate header
+290475|Info:    Valid v4 profile found for Lavender
+299931|Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-0, address 0x71
+299931|Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-0, address 0x73
+299931|Info:    Profile loading: Succeeded for ASUS PRIME Z790-A WIFI @ HID: /dev/hidraw0
+299931|Info:    Profile loading: Succeeded for Candy companion chip @ HID: /dev/hidraw7 (Receiver) 
+Wireless Index: 255
+352965|Info:    Found file: Green.orp attempting to validate header
+352965|Info:    Valid v4 profile found for Green
+352965|Info:    Found file: Teal.orp attempting to validate header
+352965|Info:    Valid v4 profile found for Teal
+352965|Info:    Found file: Lavender.orp attempting to validate header
+352965|Info:    Valid v4 profile found for Lavender
+360558|Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-0, address 0x71
+360558|Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-0, address 0x73
+360558|Info:    Profile loading: Succeeded for ASUS PRIME Z790-A WIFI @ HID: /dev/hidraw0
+360558|Info:    Profile loading: Succeeded for Candy companion chip @ HID: /dev/hidraw7 (Receiver) 
+Wireless Index: 255
+360809|Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-0, address 0x71
+360809|Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-0, address 0x73
+360809|Info:    Profile loading: Succeeded for ASUS PRIME Z790-A WIFI @ HID: /dev/hidraw0
+360809|Info:    Profile loading: Succeeded for Candy companion chip @ HID: /dev/hidraw7 (Receiver) 
+Wireless Index: 255

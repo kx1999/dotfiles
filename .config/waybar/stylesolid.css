@@ -1,0 +1,169 @@
+/* ---- 💫 https://github.com/JaKooLit 💫 ---- */
+/* Dark - Obsidian Edge */
+
+/* @import '../../.cache/wal/colors-waybar.css'; */
+
+* {
+    font-family: "JetBrainsMono Nerd Font";
+    font-weight: bold;
+    min-height: 0;
+    font-size: 100%;
+    font-feature-settings: '"zero", "ss01", "ss02", "ss03", "ss04", "ss05", "cv31"';
+    padding: 1px;
+    margin: 1px;
+}
+
+/* -------- GENERAL MODULES CONFIG -------- */
+/* -------- LEFT GROUP -------- */
+#submap, #idle_inhibitor, #workspaces, #tray {
+    color: #d6ffe7;
+    background: rgba(21, 29, 43, 0.85);
+    border: 2px solid;
+    border-radius: 15px 25px 15px 25px;
+    padding: 0px 11px 0px 11px;
+}
+
+/* -------- RIGHT GROUP -------- */
+#cava, #custom-weather, #motherboard, #custom-power, #pulseaudio, #custom-playerctl {
+    color: #d6ffe7;
+    background: rgba(21, 29, 43, 0.85);
+    border: 2px solid;
+    border-radius: 25px 15px 25px 15px;
+    padding: 0px 11px 0px 11px;
+}
+
+window#waybar {
+    background-color: transparent;
+    border-radius: 12px 0px 12px 0px;
+}
+
+window#waybar.hidden {
+    opacity: 0.15;
+}
+
+window#waybar.empty {
+    background-color: transparent;
+}
+
+window#waybar.empty #window {
+    padding: 5px;
+    border: 0px;
+    background-color: rgba(21, 29, 43, 0.75);
+}
+
+tooltip {
+    color: #E747C2;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+tooltip label {
+    color: #E747C2;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+#workspaces button {
+    color: #D1CDE8;
+    border: 2px solid;
+    border-color: transparent;
+    box-shadow: none;
+    text-shadow: none;
+    border-radius: 15px 25px 15px 25px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-left: 4px;
+    margin-right: 4px;
+    animation: gradient_f 20s ease-in infinite;
+    transition: all 0.2s cubic-bezier(0.1,0.5,0.1,1.8);
+}
+
+#workspaces button.active {
+    color: #44FFAA;
+    border: 2px solid;
+    border-color: #44FFAA /*rgba(0,0,0,0)*/;
+    padding-left: 11px;
+    padding-right: 11px;
+    animation: gradient_f 20s ease-in infinite;
+    transition: all 0.4s cubic-bezier(0.1,0.5,0.1,1.8);
+}
+
+#workspaces button.focused {
+    color: #00ff00;
+}
+
+#workspaces button.urgent {
+    padding-left: 12px;
+    padding-right: 12px;
+    color: #ff3333;
+    border-color: #ff3333 /*rgba(0,0,0,0)*/;
+}
+
+#workspaces button:hover {
+    color: #c870ff;
+    border-radius: 25px 15px 25px 15px;
+    border-color: #e870ff /*rgba(0,0,0,0)*/;
+    padding-left: 7px;
+    padding-right: 7px;
+    animation: gradient_f 20s ease-in infinite;
+    transition: all 0.3s cubic-bezier(0.1,0.5,0.1,1.8);
+}
+
+#tray {
+    border-color: #A822FB;
+    color: rgba(21, 29, 43, 0.85);
+}
+
+#workspaces {
+    border-color: #B629F2;
+    padding: 5px;
+}
+
+#submap {
+    border: solid 3px #BA2CEF;
+}
+
+#clock {
+    color: #d6ffe7;
+    background: rgba(21, 29, 43, 0.85);
+    border: 2px solid;
+    border-radius: 15px 15px 25px 25px;
+
+    border-color: #D23AD7;
+    font-size: 150%;
+    font-weight: normal;
+    padding: 0px 15px;
+}
+
+#idle_inhibitor {
+    border-color: #AA22FF;
+}
+
+#custom-weather {
+    border-color: #EA48BF;
+}
+
+#motherboard {
+    border-color: #EF4CBA;
+}
+
+#pulseaudio {
+    border-color: #F34EB6;
+}
+
+#cava {
+    border-color: #FA50B0;
+}
+#custom-playerctl {
+    border-color: #FB52AE;
+}
+
+#idle_inhibitor.activated {
+    border: 3px solid #FF0060;
+    color: #FF66A0;
+}
+
+#custom-power {
+    border: 3px solid #FF0060;
+    color: #FF0060;
+}

@@ -1,0 +1,108 @@
+    OpenRGB v0.9
+    Commit:  from 
+    Launched: 20240515_222534
+====================================================================================================
+
+0     |Info:    Found file: Green.orp attempting to validate header
+0     |Info:    Valid v4 profile found for Green
+0     |Info:    Found file: Teal.orp attempting to validate header
+0     |Info:    Valid v4 profile found for Teal
+0     |Info:    Found file: Lavender.orp attempting to validate header
+0     |Info:    Valid v4 profile found for Lavender
+1001  |Info:    ------------------------------------------------------
+1001  |Info:    |               Start device detection               |
+1001  |Info:    ------------------------------------------------------
+1002  |Info:    Initializing HID interfaces: Success
+1005  |Info:    ------------------------------------------------------
+1005  |Info:    |             Detecting I2C interfaces               |
+1005  |Info:    ------------------------------------------------------
+1005  |Info:    Registering I2C interface: /dev/i2c-3 Device 0000:0000 Subsystem: 0000:0000
+1005  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1005  |Info:    Registering I2C interface: /dev/i2c-10 Device 0000:0000 Subsystem: 0000:0000
+1005  |Info:    Registering I2C interface: /dev/i2c-1 Device 0000:0000 Subsystem: 0000:0000
+1005  |Info:    Registering I2C interface: /dev/i2c-8 Device 1002:744C Subsystem: 1DA2:E475
+1005  |Info:    Registering I2C interface: /dev/i2c-6 Device 1002:744C Subsystem: 1DA2:E475
+1005  |Info:    Registering I2C interface: /dev/i2c-4 Device 1002:744C Subsystem: 1DA2:E475
+1005  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1005  |Info:    Registering I2C interface: /dev/i2c-11 Device 0000:0000 Subsystem: 0000:0000
+1005  |Info:    Registering I2C interface: /dev/i2c-2 Device 0000:0000 Subsystem: 0000:0000
+1005  |Info:    Registering I2C interface: /dev/i2c-0 Device 8086:7A23 Subsystem: 1043:8882
+1005  |Info:    Registering I2C interface: /dev/i2c-9 Device 1002:744C Subsystem: 1DA2:E475
+1005  |Info:    Registering I2C interface: /dev/i2c-7 Device 1002:744C Subsystem: 1DA2:E475
+1005  |Info:    Registering I2C interface: /dev/i2c-5 Device 1002:744C Subsystem: 1DA2:E475
+1005  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1005  |Info:    Registering I2C interface: /dev/i2c-MSFT8000:00 Device 0000:0000 Subsystem: 0000:0000
+1005  |Info:    ------------------------------------------------------
+1005  |Info:    |               Detecting I2C devices                |
+1005  |Info:    ------------------------------------------------------
+9329  |Info:    ------------------------------------------------------
+9329  |Info:    |               Detecting I2C PCI devices            |
+9329  |Info:    ------------------------------------------------------
+9330  |Info:    ------------------------------------------------------
+9330  |Info:    |               Detecting HID devices                |
+9330  |Info:    ------------------------------------------------------
+9409  |Info:    [ASUS PRIME Z790-A WIFI] Registering RGB controller
+9946  |Info:    [] Unable add this device due to missing RGB Effects Feature
+10003 |Info:    [] Unable add this device due to missing RGB Effects Feature
+10053 |Info:    [] Unable add this device due to missing RGB Effects Feature
+10103 |Info:    [] Unable add this device due to missing RGB Effects Feature
+10163 |Info:    [] Unable add this device due to missing RGB Effects Feature
+10213 |Info:    [] Unable add this device due to missing RGB Effects Feature
+10289 |Info:    [] Unable add this device due to missing RGB Effects Feature
+10339 |Info:    [] Unable add this device due to missing RGB Effects Feature
+10389 |Info:    [] Unable add this device due to missing RGB Effects Feature
+10440 |Info:    [] Unable add this device due to missing RGB Effects Feature
+10440 |Info:    ------------------------------------------------------
+10440 |Info:    |            Detecting libusb HID devices            |
+10440 |Info:    ------------------------------------------------------
+10450 |Info:    ------------------------------------------------------
+10450 |Info:    |              Detecting other devices               |
+10450 |Info:    ------------------------------------------------------
+10450 |Info:    ------------------------------------------------------
+10450 |Info:    |                Detection completed                 |
+10450 |Info:    ------------------------------------------------------
+10450 |Dialog:  <h2>WARNING:</h2><p>One or more I2C/SMBus interfaces failed to initialize.</p><p>RGB DRAM modules and some motherboards' onboard RGB lighting will not be available without I2C/SMBus.</p><p>On Linux, this is usually because the i2c-dev module is not loaded.  You must load the i2c-dev module along with the correct i2c driver for your motherboard.  This is usually i2c-piix4 for AMD systems and i2c-i801 for Intel systems.</p><p>See <a href='https://help.openrgb.org/'>help.openrgb.org</a> for additional troubleshooting steps if you keep seeing this message.<br></p>
+49114 |Info:    ------------------------------------------------------
+49114 |Info:    |               Start device detection               |
+49114 |Info:    ------------------------------------------------------
+49114 |Info:    Initializing HID interfaces: Success
+49119 |Info:    ------------------------------------------------------
+49119 |Info:    |             Detecting I2C interfaces               |
+49119 |Info:    ------------------------------------------------------
+49119 |Info:    Registering I2C interface: /dev/i2c-3 Device 0000:0000 Subsystem: 0000:0000
+49119 |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+49119 |Info:    Registering I2C interface: /dev/i2c-10 Device 0000:0000 Subsystem: 0000:0000
+49119 |Info:    Registering I2C interface: /dev/i2c-1 Device 0000:0000 Subsystem: 0000:0000
+49119 |Info:    Registering I2C interface: /dev/i2c-8 Device 1002:744C Subsystem: 1DA2:E475
+49119 |Info:    Registering I2C interface: /dev/i2c-6 Device 1002:744C Subsystem: 1DA2:E475
+49119 |Info:    Registering I2C interface: /dev/i2c-4 Device 1002:744C Subsystem: 1DA2:E475
+49119 |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+49119 |Info:    Registering I2C interface: /dev/i2c-11 Device 0000:0000 Subsystem: 0000:0000
+49119 |Info:    Registering I2C interface: /dev/i2c-2 Device 0000:0000 Subsystem: 0000:0000
+49119 |Info:    Registering I2C interface: /dev/i2c-0 Device 8086:7A23 Subsystem: 1043:8882
+49119 |Info:    Registering I2C interface: /dev/i2c-9 Device 1002:744C Subsystem: 1DA2:E475
+49119 |Info:    Registering I2C interface: /dev/i2c-7 Device 1002:744C Subsystem: 1DA2:E475
+49119 |Info:    Registering I2C interface: /dev/i2c-5 Device 1002:744C Subsystem: 1DA2:E475
+49119 |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+49119 |Info:    Registering I2C interface: /dev/i2c-MSFT8000:00 Device 0000:0000 Subsystem: 0000:0000
+49119 |Info:    ------------------------------------------------------
+49119 |Info:    |               Detecting I2C devices                |
+49119 |Info:    ------------------------------------------------------
+57432 |Info:    ------------------------------------------------------
+57432 |Info:    |               Detecting I2C PCI devices            |
+57432 |Info:    ------------------------------------------------------
+57433 |Info:    ------------------------------------------------------
+57433 |Info:    |               Detecting HID devices                |
+57433 |Info:    ------------------------------------------------------
+57514 |Info:    [ASUS PRIME Z790-A WIFI] Registering RGB controller
+57912 |Info:    [Candy companion chip] Registering RGB controller
+57912 |Info:    ------------------------------------------------------
+57912 |Info:    |            Detecting libusb HID devices            |
+57912 |Info:    ------------------------------------------------------
+57919 |Info:    ------------------------------------------------------
+57919 |Info:    |              Detecting other devices               |
+57919 |Info:    ------------------------------------------------------
+57919 |Info:    ------------------------------------------------------
+57919 |Info:    |                Detection completed                 |
+57919 |Info:    ------------------------------------------------------
+57919 |Dialog:  <h2>WARNING:</h2><p>One or more I2C/SMBus interfaces failed to initialize.</p><p>RGB DRAM modules and some motherboards' onboard RGB lighting will not be available without I2C/SMBus.</p><p>On Linux, this is usually because the i2c-dev module is not loaded.  You must load the i2c-dev module along with the correct i2c driver for your motherboard.  This is usually i2c-piix4 for AMD systems and i2c-i801 for Intel systems.</p><p>See <a href='https://help.openrgb.org/'>help.openrgb.org</a> for additional troubleshooting steps if you keep seeing this message.<br></p>

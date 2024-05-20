@@ -1,0 +1,311 @@
+    OpenRGB v0.9
+    Commit: 11a4eac71fdeb90356b4e68249723fc97af3d110 from 2023-07-10 05:52:54 -0500
+    Launched: 20231204_215603
+====================================================================================================
+
+0     |Info:    Found file: Green.orp attempting to validate header
+0     |Info:    Valid v4 profile found for Green
+0     |Info:    Found file: Teal.orp attempting to validate header
+0     |Info:    Valid v4 profile found for Teal
+0     |Info:    Found file: Lavender.orp attempting to validate header
+0     |Info:    Valid v4 profile found for Lavender
+1001  |Info:    ------------------------------------------------------
+1001  |Info:    |               Start device detection               |
+1001  |Info:    ------------------------------------------------------
+1001  |Info:    Initializing HID interfaces: Success
+1004  |Info:    ------------------------------------------------------
+1004  |Info:    |             Detecting I2C interfaces               |
+1004  |Info:    ------------------------------------------------------
+1005  |Info:    Registering I2C interface: /dev/i2c-3 Device 0000:0000 Subsystem: 0000:0000
+1005  |Info:    Registering I2C interface: /dev/i2c-1 Device 0000:0000 Subsystem: 0000:0000
+1005  |Info:    Registering I2C interface: /dev/i2c-8 Device 10DE:2786 Subsystem: 1462:5136
+1005  |Info:    Registering I2C interface: /dev/i2c-6 Device 10DE:2786 Subsystem: 1462:5136
+1005  |Info:    Registering I2C interface: /dev/i2c-4 Device 10DE:2786 Subsystem: 1462:5136
+1005  |Info:    Registering I2C interface: /dev/i2c-2 Device 0000:0000 Subsystem: 0000:0000
+1005  |Info:    Registering I2C interface: /dev/i2c-0 Device 8086:7A23 Subsystem: 1043:8882
+1005  |Info:    Registering I2C interface: /dev/i2c-9 Device 10DE:2786 Subsystem: 1462:5136
+1005  |Info:    Registering I2C interface: /dev/i2c-7 Device 10DE:2786 Subsystem: 1462:5136
+1005  |Info:    Registering I2C interface: /dev/i2c-5 Device 10DE:2786 Subsystem: 1462:5136
+1005  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1005  |Info:    Registering I2C interface: /dev/i2c-MSFT8000:00 Device 0000:0000 Subsystem: 0000:0000
+1005  |Info:    ------------------------------------------------------
+1005  |Info:    |               Detecting I2C devices                |
+1005  |Info:    ------------------------------------------------------
+9335  |Info:    ------------------------------------------------------
+9335  |Info:    |               Detecting I2C PCI devices            |
+9335  |Info:    ------------------------------------------------------
+9336  |Info:    [MSI GeForce RTX 4070 12GB Gaming X Trio] Registering RGB controller
+9336  |Info:    ------------------------------------------------------
+9336  |Info:    |               Detecting HID devices                |
+9336  |Info:    ------------------------------------------------------
+9424  |Info:    [ASUS PRIME Z790-A WIFI] Registering RGB controller
+9824  |Info:    [Candy companion chip] Registering RGB controller
+10313 |Info:    [G502 LIGHTSPEED Wireless Gaming Mouse] Registering RGB controller
+10313 |Info:    ------------------------------------------------------
+10313 |Info:    |            Detecting libusb HID devices            |
+10313 |Info:    ------------------------------------------------------
+10323 |Info:    ------------------------------------------------------
+10323 |Info:    |              Detecting other devices               |
+10323 |Info:    ------------------------------------------------------
+10323 |Info:    ------------------------------------------------------
+10323 |Info:    |                Detection completed                 |
+10323 |Info:    ------------------------------------------------------
+10323 |Dialog:  <h2>WARNING:</h2><p>One or more I2C/SMBus interfaces failed to initialize.</p><p>RGB DRAM modules and some motherboards' onboard RGB lighting will not be available without I2C/SMBus.</p><p>On Linux, this is usually because the i2c-dev module is not loaded.  You must load the i2c-dev module along with the correct i2c driver for your motherboard.  This is usually i2c-piix4 for AMD systems and i2c-i801 for Intel systems.</p><p>See <a href='https://help.openrgb.org/'>help.openrgb.org</a> for additional troubleshooting steps if you keep seeing this message.<br></p>
+11726 |Info:    ------------------------------------------------------
+11726 |Info:    |               Start device detection               |
+11726 |Info:    ------------------------------------------------------
+11726 |Info:    Initializing HID interfaces: Success
+11730 |Info:    ------------------------------------------------------
+11730 |Info:    |             Detecting I2C interfaces               |
+11730 |Info:    ------------------------------------------------------
+11730 |Info:    Registering I2C interface: /dev/i2c-3 Device 0000:0000 Subsystem: 0000:0000
+11730 |Info:    Registering I2C interface: /dev/i2c-1 Device 0000:0000 Subsystem: 0000:0000
+11730 |Info:    Registering I2C interface: /dev/i2c-8 Device 10DE:2786 Subsystem: 1462:5136
+11730 |Info:    Registering I2C interface: /dev/i2c-6 Device 10DE:2786 Subsystem: 1462:5136
+11730 |Info:    Registering I2C interface: /dev/i2c-4 Device 10DE:2786 Subsystem: 1462:5136
+11731 |Info:    Registering I2C interface: /dev/i2c-2 Device 0000:0000 Subsystem: 0000:0000
+11731 |Info:    Registering I2C interface: /dev/i2c-0 Device 8086:7A23 Subsystem: 1043:8882
+11731 |Info:    Registering I2C interface: /dev/i2c-9 Device 10DE:2786 Subsystem: 1462:5136
+11731 |Info:    Registering I2C interface: /dev/i2c-7 Device 10DE:2786 Subsystem: 1462:5136
+11731 |Info:    Registering I2C interface: /dev/i2c-5 Device 10DE:2786 Subsystem: 1462:5136
+11731 |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+11731 |Info:    Registering I2C interface: /dev/i2c-MSFT8000:00 Device 0000:0000 Subsystem: 0000:0000
+11731 |Info:    ------------------------------------------------------
+11731 |Info:    |               Detecting I2C devices                |
+11731 |Info:    ------------------------------------------------------
+20063 |Info:    ------------------------------------------------------
+20063 |Info:    |               Detecting I2C PCI devices            |
+20063 |Info:    ------------------------------------------------------
+20063 |Info:    [MSI GeForce RTX 4070 12GB Gaming X Trio] Registering RGB controller
+20063 |Info:    ------------------------------------------------------
+20063 |Info:    |               Detecting HID devices                |
+20063 |Info:    ------------------------------------------------------
+20144 |Info:    [ASUS PRIME Z790-A WIFI] Registering RGB controller
+20549 |Info:    [Candy companion chip] Registering RGB controller
+21221 |Info:    [G502 LIGHTSPEED Wireless Gaming Mouse] Registering RGB controller
+21221 |Info:    ------------------------------------------------------
+21221 |Info:    |            Detecting libusb HID devices            |
+21221 |Info:    ------------------------------------------------------
+21228 |Info:    ------------------------------------------------------
+21228 |Info:    |              Detecting other devices               |
+21228 |Info:    ------------------------------------------------------
+21228 |Info:    ------------------------------------------------------
+21228 |Info:    |                Detection completed                 |
+21228 |Info:    ------------------------------------------------------
+21228 |Dialog:  <h2>WARNING:</h2><p>One or more I2C/SMBus interfaces failed to initialize.</p><p>RGB DRAM modules and some motherboards' onboard RGB lighting will not be available without I2C/SMBus.</p><p>On Linux, this is usually because the i2c-dev module is not loaded.  You must load the i2c-dev module along with the correct i2c driver for your motherboard.  This is usually i2c-piix4 for AMD systems and i2c-i801 for Intel systems.</p><p>See <a href='https://help.openrgb.org/'>help.openrgb.org</a> for additional troubleshooting steps if you keep seeing this message.<br></p>
+136252|Info:    ------------------------------------------------------
+136252|Info:    |               Start device detection               |
+136252|Info:    ------------------------------------------------------
+136252|Info:    Initializing HID interfaces: Success
+136255|Info:    ------------------------------------------------------
+136255|Info:    |             Detecting I2C interfaces               |
+136255|Info:    ------------------------------------------------------
+136255|Info:    Registering I2C interface: /dev/i2c-3 Device 0000:0000 Subsystem: 0000:0000
+136255|Info:    Registering I2C interface: /dev/i2c-1 Device 0000:0000 Subsystem: 0000:0000
+136255|Info:    Registering I2C interface: /dev/i2c-8 Device 10DE:2786 Subsystem: 1462:5136
+136255|Info:    Registering I2C interface: /dev/i2c-6 Device 10DE:2786 Subsystem: 1462:5136
+136255|Info:    Registering I2C interface: /dev/i2c-4 Device 10DE:2786 Subsystem: 1462:5136
+136255|Info:    Registering I2C interface: /dev/i2c-2 Device 0000:0000 Subsystem: 0000:0000
+136255|Info:    Registering I2C interface: /dev/i2c-0 Device 8086:7A23 Subsystem: 1043:8882
+136255|Info:    Registering I2C interface: /dev/i2c-9 Device 10DE:2786 Subsystem: 1462:5136
+136255|Info:    Registering I2C interface: /dev/i2c-7 Device 10DE:2786 Subsystem: 1462:5136
+136255|Info:    Registering I2C interface: /dev/i2c-5 Device 10DE:2786 Subsystem: 1462:5136
+136255|Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+136255|Info:    Registering I2C interface: /dev/i2c-MSFT8000:00 Device 0000:0000 Subsystem: 0000:0000
+136255|Info:    ------------------------------------------------------
+136255|Info:    |               Detecting I2C devices                |
+136255|Info:    ------------------------------------------------------
+144559|Info:    ------------------------------------------------------
+144559|Info:    |               Detecting I2C PCI devices            |
+144559|Info:    ------------------------------------------------------
+144560|Info:    [MSI GeForce RTX 4070 12GB Gaming X Trio] Registering RGB controller
+144560|Info:    ------------------------------------------------------
+144560|Info:    |               Detecting HID devices                |
+144560|Info:    ------------------------------------------------------
+144644|Info:    [ASUS PRIME Z790-A WIFI] Registering RGB controller
+145050|Info:    [Candy companion chip] Registering RGB controller
+145698|Info:    [G502 LIGHTSPEED Wireless Gaming Mouse] Registering RGB controller
+145698|Info:    ------------------------------------------------------
+145698|Info:    |            Detecting libusb HID devices            |
+145698|Info:    ------------------------------------------------------
+145706|Info:    ------------------------------------------------------
+145706|Info:    |              Detecting other devices               |
+145706|Info:    ------------------------------------------------------
+145706|Info:    ------------------------------------------------------
+145706|Info:    |                Detection completed                 |
+145706|Info:    ------------------------------------------------------
+145706|Dialog:  <h2>WARNING:</h2><p>One or more I2C/SMBus interfaces failed to initialize.</p><p>RGB DRAM modules and some motherboards' onboard RGB lighting will not be available without I2C/SMBus.</p><p>On Linux, this is usually because the i2c-dev module is not loaded.  You must load the i2c-dev module along with the correct i2c driver for your motherboard.  This is usually i2c-piix4 for AMD systems and i2c-i801 for Intel systems.</p><p>See <a href='https://help.openrgb.org/'>help.openrgb.org</a> for additional troubleshooting steps if you keep seeing this message.<br></p>
+152146|Info:    ------------------------------------------------------
+152146|Info:    |               Start device detection               |
+152146|Info:    ------------------------------------------------------
+152146|Info:    Initializing HID interfaces: Success
+152150|Info:    ------------------------------------------------------
+152150|Info:    |             Detecting I2C interfaces               |
+152150|Info:    ------------------------------------------------------
+152150|Info:    Registering I2C interface: /dev/i2c-3 Device 0000:0000 Subsystem: 0000:0000
+152150|Info:    Registering I2C interface: /dev/i2c-1 Device 0000:0000 Subsystem: 0000:0000
+152150|Info:    Registering I2C interface: /dev/i2c-8 Device 10DE:2786 Subsystem: 1462:5136
+152150|Info:    Registering I2C interface: /dev/i2c-6 Device 10DE:2786 Subsystem: 1462:5136
+152150|Info:    Registering I2C interface: /dev/i2c-4 Device 10DE:2786 Subsystem: 1462:5136
+152150|Info:    Registering I2C interface: /dev/i2c-2 Device 0000:0000 Subsystem: 0000:0000
+152150|Info:    Registering I2C interface: /dev/i2c-0 Device 8086:7A23 Subsystem: 1043:8882
+152150|Info:    Registering I2C interface: /dev/i2c-9 Device 10DE:2786 Subsystem: 1462:5136
+152150|Info:    Registering I2C interface: /dev/i2c-7 Device 10DE:2786 Subsystem: 1462:5136
+152151|Info:    Registering I2C interface: /dev/i2c-5 Device 10DE:2786 Subsystem: 1462:5136
+152151|Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+152151|Info:    Registering I2C interface: /dev/i2c-MSFT8000:00 Device 0000:0000 Subsystem: 0000:0000
+152151|Info:    ------------------------------------------------------
+152151|Info:    |               Detecting I2C devices                |
+152151|Info:    ------------------------------------------------------
+160460|Info:    ------------------------------------------------------
+160460|Info:    |               Detecting I2C PCI devices            |
+160460|Info:    ------------------------------------------------------
+160460|Info:    [MSI GeForce RTX 4070 12GB Gaming X Trio] Registering RGB controller
+160460|Info:    ------------------------------------------------------
+160460|Info:    |               Detecting HID devices                |
+160460|Info:    ------------------------------------------------------
+160543|Info:    [ASUS PRIME Z790-A WIFI] Registering RGB controller
+160939|Info:    [Candy companion chip] Registering RGB controller
+161495|Info:    [G502 LIGHTSPEED Wireless Gaming Mouse] Registering RGB controller
+161495|Info:    ------------------------------------------------------
+161495|Info:    |            Detecting libusb HID devices            |
+161495|Info:    ------------------------------------------------------
+161502|Info:    ------------------------------------------------------
+161502|Info:    |              Detecting other devices               |
+161502|Info:    ------------------------------------------------------
+161502|Info:    ------------------------------------------------------
+161502|Info:    |                Detection completed                 |
+161502|Info:    ------------------------------------------------------
+161502|Dialog:  <h2>WARNING:</h2><p>One or more I2C/SMBus interfaces failed to initialize.</p><p>RGB DRAM modules and some motherboards' onboard RGB lighting will not be available without I2C/SMBus.</p><p>On Linux, this is usually because the i2c-dev module is not loaded.  You must load the i2c-dev module along with the correct i2c driver for your motherboard.  This is usually i2c-piix4 for AMD systems and i2c-i801 for Intel systems.</p><p>See <a href='https://help.openrgb.org/'>help.openrgb.org</a> for additional troubleshooting steps if you keep seeing this message.<br></p>
+3856160|Info:    ------------------------------------------------------
+3856160|Info:    |               Start device detection               |
+3856160|Info:    ------------------------------------------------------
+3856160|Info:    Initializing HID interfaces: Success
+3856163|Info:    ------------------------------------------------------
+3856163|Info:    |             Detecting I2C interfaces               |
+3856163|Info:    ------------------------------------------------------
+3856163|Info:    Registering I2C interface: /dev/i2c-3 Device 0000:0000 Subsystem: 0000:0000
+3856163|Info:    Registering I2C interface: /dev/i2c-1 Device 0000:0000 Subsystem: 0000:0000
+3856163|Info:    Registering I2C interface: /dev/i2c-8 Device 10DE:2786 Subsystem: 1462:5136
+3856163|Info:    Registering I2C interface: /dev/i2c-6 Device 10DE:2786 Subsystem: 1462:5136
+3856163|Info:    Registering I2C interface: /dev/i2c-4 Device 10DE:2786 Subsystem: 1462:5136
+3856163|Info:    Registering I2C interface: /dev/i2c-2 Device 0000:0000 Subsystem: 0000:0000
+3856163|Info:    Registering I2C interface: /dev/i2c-0 Device 8086:7A23 Subsystem: 1043:8882
+3856163|Info:    Registering I2C interface: /dev/i2c-9 Device 10DE:2786 Subsystem: 1462:5136
+3856164|Info:    Registering I2C interface: /dev/i2c-7 Device 10DE:2786 Subsystem: 1462:5136
+3856164|Info:    Registering I2C interface: /dev/i2c-5 Device 10DE:2786 Subsystem: 1462:5136
+3856164|Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+3856164|Info:    Registering I2C interface: /dev/i2c-MSFT8000:00 Device 0000:0000 Subsystem: 0000:0000
+3856164|Info:    ------------------------------------------------------
+3856164|Info:    |               Detecting I2C devices                |
+3856164|Info:    ------------------------------------------------------
+3864462|Info:    ------------------------------------------------------
+3864462|Info:    |               Detecting I2C PCI devices            |
+3864462|Info:    ------------------------------------------------------
+3864462|Info:    [MSI GeForce RTX 4070 12GB Gaming X Trio] Registering RGB controller
+3864462|Info:    ------------------------------------------------------
+3864462|Info:    |               Detecting HID devices                |
+3864462|Info:    ------------------------------------------------------
+3864548|Info:    [ASUS PRIME Z790-A WIFI] Registering RGB controller
+3864944|Info:    [Candy companion chip] Registering RGB controller
+3865951|Info:    [G502 LIGHTSPEED Wireless Gaming Mouse] Registering RGB controller
+3865951|Info:    ------------------------------------------------------
+3865951|Info:    |            Detecting libusb HID devices            |
+3865951|Info:    ------------------------------------------------------
+3865958|Info:    ------------------------------------------------------
+3865958|Info:    |              Detecting other devices               |
+3865958|Info:    ------------------------------------------------------
+3865958|Info:    ------------------------------------------------------
+3865958|Info:    |                Detection completed                 |
+3865958|Info:    ------------------------------------------------------
+3865958|Dialog:  <h2>WARNING:</h2><p>One or more I2C/SMBus interfaces failed to initialize.</p><p>RGB DRAM modules and some motherboards' onboard RGB lighting will not be available without I2C/SMBus.</p><p>On Linux, this is usually because the i2c-dev module is not loaded.  You must load the i2c-dev module along with the correct i2c driver for your motherboard.  This is usually i2c-piix4 for AMD systems and i2c-i801 for Intel systems.</p><p>See <a href='https://help.openrgb.org/'>help.openrgb.org</a> for additional troubleshooting steps if you keep seeing this message.<br></p>
+4347078|Info:    ------------------------------------------------------
+4347078|Info:    |               Start device detection               |
+4347078|Info:    ------------------------------------------------------
+4347078|Info:    Initializing HID interfaces: Success
+4347081|Info:    ------------------------------------------------------
+4347081|Info:    |             Detecting I2C interfaces               |
+4347081|Info:    ------------------------------------------------------
+4347081|Info:    Registering I2C interface: /dev/i2c-3 Device 0000:0000 Subsystem: 0000:0000
+4347081|Info:    Registering I2C interface: /dev/i2c-1 Device 0000:0000 Subsystem: 0000:0000
+4347081|Info:    Registering I2C interface: /dev/i2c-8 Device 10DE:2786 Subsystem: 1462:5136
+4347081|Info:    Registering I2C interface: /dev/i2c-6 Device 10DE:2786 Subsystem: 1462:5136
+4347081|Info:    Registering I2C interface: /dev/i2c-4 Device 10DE:2786 Subsystem: 1462:5136
+4347082|Info:    Registering I2C interface: /dev/i2c-2 Device 0000:0000 Subsystem: 0000:0000
+4347082|Info:    Registering I2C interface: /dev/i2c-0 Device 8086:7A23 Subsystem: 1043:8882
+4347082|Info:    Registering I2C interface: /dev/i2c-9 Device 10DE:2786 Subsystem: 1462:5136
+4347082|Info:    Registering I2C interface: /dev/i2c-7 Device 10DE:2786 Subsystem: 1462:5136
+4347082|Info:    Registering I2C interface: /dev/i2c-5 Device 10DE:2786 Subsystem: 1462:5136
+4347082|Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+4347082|Info:    Registering I2C interface: /dev/i2c-MSFT8000:00 Device 0000:0000 Subsystem: 0000:0000
+4347082|Info:    ------------------------------------------------------
+4347082|Info:    |               Detecting I2C devices                |
+4347082|Info:    ------------------------------------------------------
+4355406|Info:    ------------------------------------------------------
+4355406|Info:    |               Detecting I2C PCI devices            |
+4355406|Info:    ------------------------------------------------------
+4355406|Info:    [MSI GeForce RTX 4070 12GB Gaming X Trio] Registering RGB controller
+4355407|Info:    ------------------------------------------------------
+4355407|Info:    |               Detecting HID devices                |
+4355407|Info:    ------------------------------------------------------
+4355496|Info:    [ASUS PRIME Z790-A WIFI] Registering RGB controller
+4355895|Info:    [Candy companion chip] Registering RGB controller
+4356451|Info:    [G502 LIGHTSPEED Wireless Gaming Mouse] Registering RGB controller
+4356451|Info:    ------------------------------------------------------
+4356451|Info:    |            Detecting libusb HID devices            |
+4356451|Info:    ------------------------------------------------------
+4356458|Info:    ------------------------------------------------------
+4356458|Info:    |              Detecting other devices               |
+4356458|Info:    ------------------------------------------------------
+4356458|Info:    ------------------------------------------------------
+4356458|Info:    |                Detection completed                 |
+4356458|Info:    ------------------------------------------------------
+4356458|Dialog:  <h2>WARNING:</h2><p>One or more I2C/SMBus interfaces failed to initialize.</p><p>RGB DRAM modules and some motherboards' onboard RGB lighting will not be available without I2C/SMBus.</p><p>On Linux, this is usually because the i2c-dev module is not loaded.  You must load the i2c-dev module along with the correct i2c driver for your motherboard.  This is usually i2c-piix4 for AMD systems and i2c-i801 for Intel systems.</p><p>See <a href='https://help.openrgb.org/'>help.openrgb.org</a> for additional troubleshooting steps if you keep seeing this message.<br></p>
+4366785|Info:    ------------------------------------------------------
+4366785|Info:    |               Start device detection               |
+4366785|Info:    ------------------------------------------------------
+4366785|Info:    Initializing HID interfaces: Success
+4366787|Info:    ------------------------------------------------------
+4366787|Info:    |             Detecting I2C interfaces               |
+4366787|Info:    ------------------------------------------------------
+4366787|Info:    Registering I2C interface: /dev/i2c-3 Device 0000:0000 Subsystem: 0000:0000
+4366787|Info:    Registering I2C interface: /dev/i2c-1 Device 0000:0000 Subsystem: 0000:0000
+4366787|Info:    Registering I2C interface: /dev/i2c-8 Device 10DE:2786 Subsystem: 1462:5136
+4366787|Info:    Registering I2C interface: /dev/i2c-6 Device 10DE:2786 Subsystem: 1462:5136
+4366787|Info:    Registering I2C interface: /dev/i2c-4 Device 10DE:2786 Subsystem: 1462:5136
+4366787|Info:    Registering I2C interface: /dev/i2c-2 Device 0000:0000 Subsystem: 0000:0000
+4366787|Info:    Registering I2C interface: /dev/i2c-0 Device 8086:7A23 Subsystem: 1043:8882
+4366788|Info:    Registering I2C interface: /dev/i2c-9 Device 10DE:2786 Subsystem: 1462:5136
+4366788|Info:    Registering I2C interface: /dev/i2c-7 Device 10DE:2786 Subsystem: 1462:5136
+4366788|Info:    Registering I2C interface: /dev/i2c-5 Device 10DE:2786 Subsystem: 1462:5136
+4366788|Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+4366788|Info:    Registering I2C interface: /dev/i2c-MSFT8000:00 Device 0000:0000 Subsystem: 0000:0000
+4366788|Info:    ------------------------------------------------------
+4366788|Info:    |               Detecting I2C devices                |
+4366788|Info:    ------------------------------------------------------
+4375092|Info:    ------------------------------------------------------
+4375092|Info:    |               Detecting I2C PCI devices            |
+4375092|Info:    ------------------------------------------------------
+4375093|Info:    [MSI GeForce RTX 4070 12GB Gaming X Trio] Registering RGB controller
+4375093|Info:    ------------------------------------------------------
+4375093|Info:    |               Detecting HID devices                |
+4375093|Info:    ------------------------------------------------------
+4375172|Info:    [ASUS PRIME Z790-A WIFI] Registering RGB controller
+4375578|Info:    [Candy companion chip] Registering RGB controller
+4381267|Info:    [G502 LIGHTSPEED Wireless Gaming Mouse] Registering RGB controller
+4381267|Info:    ------------------------------------------------------
+4381267|Info:    |            Detecting libusb HID devices            |
+4381267|Info:    ------------------------------------------------------
+4381273|Info:    ------------------------------------------------------
+4381273|Info:    |              Detecting other devices               |
+4381273|Info:    ------------------------------------------------------
+4381273|Info:    ------------------------------------------------------
+4381273|Info:    |                Detection completed                 |
+4381274|Info:    ------------------------------------------------------
+4381274|Dialog:  <h2>WARNING:</h2><p>One or more I2C/SMBus interfaces failed to initialize.</p><p>RGB DRAM modules and some motherboards' onboard RGB lighting will not be available without I2C/SMBus.</p><p>On Linux, this is usually because the i2c-dev module is not loaded.  You must load the i2c-dev module along with the correct i2c driver for your motherboard.  This is usually i2c-piix4 for AMD systems and i2c-i801 for Intel systems.</p><p>See <a href='https://help.openrgb.org/'>help.openrgb.org</a> for additional troubleshooting steps if you keep seeing this message.<br></p>
+57056139|Info:    Profile loading: Succeeded for MSI GeForce RTX 4070 12GB Gaming X Trio @ I2C: /dev/i2c-4, address 0x68
+57056139|Info:    Profile loading: Succeeded for ASUS PRIME Z790-A WIFI @ HID: /dev/hidraw0
+57056139|Info:    Profile loading: Succeeded for Candy companion chip @ HID: /dev/hidraw6 (Receiver) 
+Wireless Index: 255
+57056139|Info:    Profile loading: Succeeded for G502 LIGHTSPEED Wireless Gaming Mouse @ HID: /dev/hidraw5 (Receiver) 
+Wireless Index: 255
