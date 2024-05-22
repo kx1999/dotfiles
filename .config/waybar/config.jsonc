@@ -2,7 +2,7 @@
 // MAIN MONITOR
 {
     "output": "DP-2",
-    "margin-top": 2,
+    "margin-top": 5,
     "margin-left": 40,
     "margin-right": 40,
     "layer": "top", // Waybar at top layer
@@ -32,7 +32,7 @@
     // Modules configuration
     "hyprland/workspaces": {
         "sort-by": "number",
-        "all-outputs": false,
+        "all-outputs": true,
         "format": "{icon}",
         "format-icons": {
             "1": "",

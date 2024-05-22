@@ -8,7 +8,7 @@
   _battery: 4100
   _modelId: 4099C0950000
   _sensitive: {dpi: false, hires-scroll-mode: false, hires-smooth-invert: false, hires-smooth-resolution: false, onboard_profiles: false, per-key-lighting: false,
-    report_rate: false, rgb_control: false, rgb_zone_1: true}
+    report_rate: false, rgb_control: false, rgb_zone_1: false}
   _serial: 2599FE90
   _unitId: 2599FE90
   _wpid: '4099'

@@ -1744,14 +1744,14 @@
             "set_on_exit": true
         },
         "geometry": {
-            "height": 702,
+            "height": 672,
             "load_geometry": true,
             "save_on_exit": true,
-            "width": 1146,
+            "width": 1253,
             "x": 0,
             "y": 0
         },
-        "greyscale_tray_icon": false,
+        "greyscale_tray_icon": true,
         "language": "default",
         "minimize_on_close": false
     }

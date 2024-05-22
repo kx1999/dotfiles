@@ -371,7 +371,7 @@
         },
         "PermissionsViewer": {
             "enabled": true,
-            "permissionsSortOrder": 0,
+            "permissionsSortOrder": 1,
             "defaultPermissionsDropdownState": false
         },
         "petpet": {
@@ -528,7 +528,9 @@
         },
         "TypingTweaks": {
             "enabled": true,
-            "alternativeFormatting": true
+            "alternativeFormatting": true,
+            "showRoleColors": true,
+            "showAvatars": false
         },
         "Unindent": {
             "enabled": false
@@ -607,6 +609,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1716173593621
+        "settingsSyncVersion": 1716335021219
     }
 }

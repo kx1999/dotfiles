@@ -4,7 +4,7 @@
     ### Display ###
 
     # Which monitor should the notifications be displayed on.
-    monitor = DP-3
+    monitor = DP-2
 
     # Display notification on focused monitor.  Possible modes are:
     #   mouse: follow mouse pointer
@@ -52,17 +52,20 @@
     progress_bar_height = 10
 
     # Set the frame width of the progress bar
-    progress_bar_frame_width = 2
+    progress_bar_frame_width = 1
 
     # Set the minimum width for the progress bar
-    progress_bar_min_width = 150
+    progress_bar_min_width = 400
 
     # Set the maximum width for the progress bar
-    progress_bar_max_width = 300
+    progress_bar_max_width = 400
 
     # Corner radius for the progress bar. 0 disables rounded corners.
-    progress_bar_corner_radius = 35
-    progress_corners = top-right, bottom-left
+    progress_bar_corner_radius = 15
+    progress_bar_corners = top-left, bottom-right
+
+    # Highlight color (currently only used by progress bar)
+    highlight = "#50FA7B"
 
     # Corner radius for the icon image.
     icon_corner_radius = 35
@@ -94,7 +97,7 @@
 
     # Defines width in pixels of frame around the notification window.
     # Set to 0 to disable.
-    frame_width = 2
+    frame_width = 1
 
     # Defines color of the frame around the notification window.
     frame_color = "#FF79C6"
@@ -170,7 +173,7 @@
     #   %n  progress value if set without any extra characters
     #   %%  Literal %
     # Markup is allowed
-    format = "<u><b>%a</b></u>\n<b>%s</b>\n%b\n %p"
+    format = "<u><b>%a</b></u>\n<b>%s</b>\n%b"
 
     # Alignment of message text.
     # Possible values are "left", "center" and "right".
@@ -247,10 +250,10 @@
     always_run_script = true
 
     # Define the title of the windows spawned by dunst
-    title = Dunst
+    title = dunst
 
     # Define the class of the windows spawned by dunst
-    class = Dunst
+    class = dunst
 
     # Define the corner radius of the notification window
     # in pixel size. If the radius is 0, you have no rounded
@@ -325,7 +328,7 @@
     foreground = "#ffffff"
     timeout = 3
     # Icon for notifications with low urgency, uncomment to enable
-    #default_icon = /path/to/icon
+    default_icon = /path/to/icon
 
 [urgency_normal]
     background = "#282A36"
@@ -333,7 +336,7 @@
     timeout = 5
     override_pause_level = 30
     # Icon for notifications with normal urgency, uncomment to enable
-    #default_icon = /path/to/icon
+    default_icon = /path/to/icon
 
 [urgency_critical]
     background = "#282A36"
@@ -342,7 +345,21 @@
     timeout = 0
     override_pause_level = 60
     # Icon for notifications with critical urgency, uncomment to enable
-    #default_icon = /path/to/icon
+    default_icon = /path/to/icon
+
+
+[volume_notif]
+    summary = "VOLUME NOTIFICATION"
+    format = "Volume: %p %b %a"
+    fullscreen = show
+    history_ignore = yes
+
+[pause_notif]
+    summary = "dunstPause"
+    format = "%a Notifications %b"
+    override_pause_level = 110
+    fullscreen = show
+    history_ignore = yes
 
 # Every section that isn't one of the above is interpreted as a rules to
 # override settings for certain messages.
