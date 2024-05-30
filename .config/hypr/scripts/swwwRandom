@@ -13,8 +13,11 @@ fi
 
 # Edit below to control the images transition
 export SWWW_TRANSITION_FPS=165
-export SWWW_TRANSITION_STEP=1
-export SWWW_TRANSITION_TYPE=left
+export SWWW_TRANSITION_STEP=15
+export SWWW_TRANSITION=wipe
+export SWWW_TRANSITION_ANGLE=115
+export SWWW_TRANSITION_DURATION=3
+export SWWW_TRANSITION_BEZIER=0.35,0.2,0.3,0.95
 
 # This controls (in seconds) when to switch to the next image
 INTERVAL=600
