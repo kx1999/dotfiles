@@ -1,4 +1,4 @@
-; Thunar GtkAccelMap rc-file         -*- scheme -*-
+; thunar GtkAccelMap rc-file         -*- scheme -*-
 ; this file is an automated accelerator map dump
 ;
 ; (gtk_accel_path "<Actions>/ThunarStandardView/sort-by-mtime" "")
@@ -47,7 +47,7 @@
 ; (gtk_accel_path "<Actions>/ThunarWindow/reload-alt" "F5")
 ; (gtk_accel_path "<Actions>/ThunarWindow/view-location-selector-buttons" "")
 ; (gtk_accel_path "<Actions>/ThunarStatusBar/toggle-size-in-bytes" "")
-; (gtk_accel_path "<Actions>/ThunarBookmarks/8ac9e0cd28ab94722c78d3201333ba84" "")
+; (gtk_accel_path "<Actions>/ThunarBookmarks/1596b2975be98e2f7433a5d6c433ca39" "")
 ; (gtk_accel_path "<Actions>/ThunarActionManager/copy-2" "<Primary>Insert")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/sort-by-type" "")
 ; (gtk_accel_path "<Actions>/ThunarWindow/zoom-out-alt" "<Primary>KP_Subtract")
