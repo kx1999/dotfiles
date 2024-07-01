@@ -1,7 +1,6 @@
 // -*- mode: jsonc -*-}
 // MAIN MONITOR
 {
-    "output": "DP-2",
     "margin-top": 5,
     "margin-left": 40,
     "margin-right": 40,
