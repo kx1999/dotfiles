@@ -6,4 +6,4 @@ dotfiles n stuff\
 [kitty](https://github.com/kx1999/dotfiles/tree/master/.config/kitty)\
 [spicetify](https://github.com/kx1999/dotfiles/tree/master/.config/spicetify)\
 [vesktop](https://github.com/kx1999/dotfiles/tree/master/.config/vesktop)\
-[waybar](https://github.com/kx1999/dotfiles/tree/master/.config/waybar)\
+[waybar](https://github.com/kx1999/dotfiles/tree/master/.config/waybar)
