@@ -1,8 +1,8 @@
 # Created by newuser for 5.9
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
-HISTSIZE=1000
-SAVEHIST=1000
+HISTSIZE=100000
+SAVEHIST=100000
 setopt autocd
 bindkey -v
 # End of lines configured by zsh-newuser-install
