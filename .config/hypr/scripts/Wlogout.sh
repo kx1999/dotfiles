@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 # /* ---- 💫 https://github.com/JaKooLit 💫 ---- */  ##
 
 # wlogout (Power, Screen Lock, Suspend, etc)

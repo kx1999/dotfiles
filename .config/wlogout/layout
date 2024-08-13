@@ -35,7 +35,7 @@
 
 {
     "label" : "rebootfirmware",
-    "action" : "systemctl reboot --firmare-setup",
+    "action" : "systemctl reboot --firmware-setup",
     "text" : "Reboot(UEFI) ",
     "keybind" : "e"
 }

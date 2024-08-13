@@ -2,5 +2,6 @@
     "historyFile": "clipboard_history.json",
     "maxHistory": 100,
     "themeFile": "custom_theme.json",
+    "logFile": "clipse.log",
     "tempDir": "tmp_files"
 }
