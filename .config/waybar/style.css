@@ -9,26 +9,26 @@
 }
 
 @keyframes gradient_f {
-    0% {color: rgba(85,255,170,1); border-color: rgba(85,255,170,1) transparent;}
-    50% {color: rgba(85,255,170,0.75); border-color: rgba(85,255,170,0.5) transparent;}
-    100% {color: rgba(85,255,170,1); border-color: rgba(85,255,170,1) transparent;}
+    0% {color: rgba(80,250,123,1); border-color: rgba(80,250,123,1) transparent;}
+    50% {color: rgba(80,250,123,0.75); border-color: rgba(80,250,123,0.5) transparent;}
+    100% {color: rgba(80,250,123,1); border-color: rgba(80,250,123,1) transparent;}
 }
 
 @keyframes gradient_hover {
-    0% {color: rgba(112,232,255,1); border-color: rgba(112,232,255,1) transparent;}
-    50% {color: rgba(112,232,255,0.75); border-color: rgba(112,232,255,0.5) transparent;}
-    100% {color: rgba(112,232,255,1); border-color: rgba(112,232,255,1) transparent;}
+    0% {color: rgba(139,233,253,1); border-color: rgba(139,233,253,1) transparent;}
+    50% {color: rgba(139,233,253,0.75); border-color: rgba(139,233,253,0.5) transparent;}
+    100% {color: rgba(139,233,253,1); border-color: rgba(139,233,253,1) transparent;}
 }
 
 @keyframes pulse_urgent {
-    0% {color: rgba(255,51,51,1); border-color: rgba(255,51,51,1) transparent;}
-    100% {color: rgba(255,51,51,0.85); border-color: rgba(255,51,51,0.5) transparent;}
+    0% {color: rgba(255,85,85,1); border-color: rgba(255,85,85,1) transparent;}
+    100% {color: rgba(255,85,85,0.85); border-color: rgba(255,85,85,0.5) transparent;}
 }
 
 /* -------- GENERAL MODULES CONFIG -------- */
 /* -------- LEFT GROUP -------- */
 #submap, #idle_inhibitor, #workspaces, #tray {
-    color: #ffffff;
+    color: #f8f8f2;
     background: rgba(21, 29, 43, 0.35);
     border-width: 1px 5px;
     border-style: solid;
@@ -39,7 +39,7 @@
 
 /* -------- RIGHT GROUP -------- */
 #custom-weather, #motherboard, #custom-power, #audio{
-    color: #ffffff;
+    color: #f8f8f2;
     background: rgba(21, 29, 43, 0.35);
     border-width: 1px 5px;
     border-style: solid;
@@ -48,12 +48,12 @@
 }
 
 #clock {
-    color: #ffffff;
+    color: #f8f8f2;
     background: rgba(21, 29, 43, 0.35);
     border-width: 1px 7px;
     border-style: solid;
     border-radius: 0px 0px 75px 75px;
-    border-color: #D23AD7;
+    border-color: #df85e0;
     font-size: 130%;
     font-weight: normal;
     padding: 0px 25px;
@@ -89,12 +89,12 @@ tooltip label {
 }
 
 #workspaces {
-    border-color: #B629F2;
+    border-color: #f97bcc;
     padding: 1px 7px;
 }
 
 #workspaces button {
-    color: #ffffff;
+    color: #f8f8f2;
     border-width: 1px 4px;
     border-color: transparent;
     box-shadow: none;
@@ -108,8 +108,8 @@ tooltip label {
 }
 
 #workspaces button.active {
-    color: rgba(85,255,170,1);
-    border-color: rgba(85,255,170,1) transparent;
+    color: rgba(80,250,123,1);
+    border-color: rgba(80,250,123,1) transparent;
     padding-left: 11px;
     padding-right: 11px;
     animation: gradient_f 4s infinite normal linear both;
@@ -124,7 +124,7 @@ tooltip label {
     padding-left: 12px;
     padding-right: 12px;
     color: #ff3333;
-    border-color: rgba(255,51,51,1) transparent;
+    border-color: rgba(255,85,85,1) transparent;
     animation: pulse_urgent 0.5s infinite normal ease-out both;
     transition: all 0.3s cubic-bezier(0.1,0.5,0.1,1.8);
 }
@@ -133,38 +133,38 @@ tooltip label {
     color: #70e8ff;
     background: transparent;
     border-radius: 5px 30px 5px 30px;
-    border-color: rgba(112,232,255,0.5) transparent;
+    border-color: rgba(139,233,253,0.5) transparent;
     padding-left: 11px;
     padding-right: 11px;
     transition: all 0.3s cubic-bezier(0.1,0.5,0.1,1.8);
     animation: gradient_hover 1s infinite normal linear both;
 }
 
-#tray {
-    border-color: #A822FB;
-}
-
-#submap {
-    border-color: #BA2CEF;
-    transition: all 0.5s cubic-bezier(0.1,0.5,0.1,1.8);
-}
-
 #idle_inhibitor {
-    border-color: #AA22FF;
+    border-color: #ff79c6;
     transition: color 0.5s, border 0.5s;
     transition-timing-function: cubic-bezier(0.1,0.5,0.1,1.8);
 }
 
+#tray {
+    border-color: #fc7ac9;
+}
+
+#submap {
+    border-color: #f67ccf;
+    transition: all 0.5s cubic-bezier(0.1,0.5,0.1,1.8);
+}
+
 #custom-weather {
-    border-color: #EA48BF;
+    border-color: #c590f3;
 }
 
 #motherboard {
-    border-color: #EF4CBA;
+    border-color: #c291f5;
 }
 
 #audio {
-    border-color: #FB52AE;
+    border-color: #bf92f8;
 }
 
 #pulseaudio {
@@ -175,7 +175,7 @@ tooltip label {
     border-color: #FA50B0;
 }
 #custom-playerctl {
-    border-color: #FB52AE;
+    border-color: #bf92f8;
 }
 
 #idle_inhibitor.activated {
@@ -184,7 +184,6 @@ tooltip label {
 }
 
 #custom-power {
-    padding-top: 5px;
     background: rgba(21,29,43,0.5);
-    color: #FF0060;
+    color: #bd93f9;
 }
