@@ -4,7 +4,7 @@
 # Arbitrary but unique message tag
 msgTag="9999"
 
-# Get current volume
+# Get current volume. Need pamixer for this variable to work.
 volume="$(pamixer --get-volume)"
 
 # Send notification based on current volume
