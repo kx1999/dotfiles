@@ -1,0 +1,23 @@
+#!/bin/bash
+# changeVolume
+
+# Arbitrary but unique message tag
+msgTag="9999"
+
+# Get current volume
+volume="$(pamixer --get-volume)"
+
+# Send notification based on current volume
+if [ "$volume" -gt "50" ]; then
+    # Show the volume notification
+    dunstify "VOLUME NOTIFICATION" -a "" -t 500 -r $msgTag -h int:value:$volume
+elif [ "$volume" == "0" ]; then
+    # Show the muted notification
+    dunstify "VOLUME NOTIFICATION" -a "" -t 500 -r $msgTag -h int:value:$volume
+else
+    # Show low volume notification
+    dunstify "VOLUME NOTIFICATION" -a "" -t 500 -r $msgTag -h int:value:$volume
+fi
+
+# Play the volume changed sound
+canberra-gtk-play -i audio-volume-change -d "changeVolume"
