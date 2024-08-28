@@ -173,7 +173,8 @@
             "portable": "",
             "car": "",
             "default": ["", "", ""]
-        }
+        },
+        "on-click": "pavucontrol"
     },
 
     "custom/playerctl": {
@@ -220,14 +221,15 @@
         "orientation": "horizontal",
         "modules": [
             "memory",
-            "custom/separator#line",
             "cpu",
             "custom/separator#line",
-            "temperature"
+            "temperature",
+            "custom/separator#line",
         ],
         "drawer": {
+            "click-to-reveal": true,
             "transition-duration": 250,
-            "transition-left-to-right": true
+            "transition-left-to-right": false
         }
     },
 
@@ -263,14 +265,15 @@
         "orientation": "horizontal",
         "modules": [
             "cava",
+            "pulseaudio",
             "custom/separator#line",
             "custom/playerctl",
             "custom/separator#line",
-            "pulseaudio",
         ],
         "drawer": {
+            "click-to-reveal": true,
             "transition-duration": 250,
-            "transition-left-to-right": true
+            "transition-left-to-right": false
         }
     },
 
