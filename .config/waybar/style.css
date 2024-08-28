@@ -38,7 +38,7 @@
 }
 
 /* -------- RIGHT GROUP -------- */
-#custom-weather, #motherboard, #custom-power, #audio{
+#custom-weather, #motherboard, #custom-power, #audio {
     color: #f8f8f2;
     background: rgba(21, 29, 43, 0.35);
     border-width: 1px 5px;

@@ -1,7 +1,7 @@
 {
-    "label" : "lock",
-    "action" : "hyprlock",
-    "text" : "Lock ",
+    "label" : "logout",
+    "action" : "hyprctl dispatch exit",
+    "text" : "Logout ",
     "keybind" : "l"
 }
 
