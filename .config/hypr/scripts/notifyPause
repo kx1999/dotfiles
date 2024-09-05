@@ -1,10 +1,10 @@
 #!/bin/bash
-# changeVolume
+# notifyPause
 
 # Arbitrary but unique message tag
 msgTag="9998"
 
-# Get current volume
+# Get pause state
 isPaused="$(dunstctl get-pause-level)"
 
 # Send notification based on paused status
@@ -12,7 +12,7 @@ if [ "$isPaused" = "100" ]; then
     # Send paused notification, ignoring paused status
     dunstify "dunstPause" "paused" -a "" -t 1500 -r $msgTag
 elif [ "$isPaused" == "0" ]; then
-    # Show fully unpaused notification
+    # Show unpaused notification
     dunstify "dunstPause" "resumed" -a "" -t 1500 -r $msgTag
 else
     # Show low volume notification
