@@ -157,7 +157,7 @@
         "format-linked": "{ifname} (No IP) ",
         "format-disconnected": "Disconnected ⚠",
         "format-alt": "{ifname}: {ipaddr}/{cidr}",
-        "on-click-right": "pkill nm-connection-editor && nm-connection-editor"
+        "on-click-right": "nm-connection-editor"
     },
 
     "pulseaudio": {
@@ -249,7 +249,8 @@
         "return-type": "json",
         "format": "{}",
         "tooltip": true,
-        "interval": 3600
+        "interval": 3600,
+        "on-click": "xdg-open https://weather.com/weather/today/"
     },
 
     "cava": {
