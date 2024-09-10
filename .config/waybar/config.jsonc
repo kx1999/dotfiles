@@ -22,7 +22,9 @@
         "clock"
     ],
     "modules-right": [ 
-        "custom/weather",
+        "group/misc",
+        //"custom/weather",
+        //"network",
         "group/motherboard",
         "group/audio",
         "custom/power"
@@ -70,18 +72,18 @@
         "format": "{:%I:%M %p}",
         "format-alt": "{:%A %B %d, %Y [%I:%M %p]}",
         // "timezone": "America/New_York",
-        "tooltip-format": "<b>{:%B %d}</b>\n<tt><small>{calendar}</small></tt>",
+        "tooltip-format": "<tt>{calendar}</tt>",
         "calendar": {
             "mode": "month",
             "mode-mon-col": 3,
             "on-scroll": 1,
             "on-click-right": "mode",
             "format": {
-                "months": "<span color='#ffead3'><b>{}</b></span>",
-                "days": "<span color='#ecc6d9'><b>{}</b></span>",
-                "weeks": "<span color='#99ffdd'><b>W{}</b></span>",
-                "weekdays": "<span color='#ffcc66'><b>{}</b></span>",
-                "today": "<span color='#ff6699'><b><u>{}</u></b></span>"
+                "months": "<span color='#8BE9FD'><b>{}</b></span>",
+                "days": "<span color='#6272A4'><b>{}</b></span>",
+                "weeks": "<span color='#BD9F39'><b>W{}</b></span>",
+                "weekdays": "<span color='#FF79C6'><b>{}</b></span>",
+                "today": "<span color='#50FA7B'><b><u>{}</u></b></span>"
             }
         },
         "actions": {
@@ -154,7 +156,8 @@
         "tooltip-format": "{ifname} via {gwaddr} ",
         "format-linked": "{ifname} (No IP) ",
         "format-disconnected": "Disconnected ⚠",
-        "format-alt": "{ifname}: {ipaddr}/{cidr}"
+        "format-alt": "{ifname}: {ipaddr}/{cidr}",
+        "on-click-right": "pkill nm-connection-editor && nm-connection-editor"
     },
 
     "pulseaudio": {
@@ -216,7 +219,15 @@
         "format": "<span>  {}</span>", // Icon: expand-arrows-alt
         "tooltip": false
     },
-
+    "group/misc": {
+        "orientation": "horizontal",
+        "modules": [
+            "network",
+            "custom/separator#line",
+            "custom/weather"
+        ]
+    },
+    
     "group/motherboard": {
         "orientation": "horizontal",
         "modules": [
@@ -224,7 +235,7 @@
             "cpu",
             "custom/separator#line",
             "temperature",
-            "custom/separator#line",
+            "custom/separator#line"
         ],
         "drawer": {
             "click-to-reveal": true,
