@@ -222,8 +222,8 @@
     "group/misc": {
         "orientation": "horizontal",
         "modules": [
-            "network",
-            "custom/separator#line",
+            // "network",
+            // "custom/separator#line",
             "custom/weather"
         ]
     },
@@ -235,6 +235,8 @@
             "cpu",
             "custom/separator#line",
             "temperature",
+            "custom/separator#line",
+            "network",
             "custom/separator#line"
         ],
         "drawer": {

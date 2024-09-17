@@ -9,6 +9,7 @@ bindkey -v
 # The following lines were added by compinstall
 zstyle :compinstall filename '$HOME/.zshrc'
 source /usr/share/zsh/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+#setopt interactive_comments
 
 #autoload -U compinit && compinit
 #zstyle ':completion:*' menu select
