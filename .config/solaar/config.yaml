@@ -20,7 +20,7 @@
   per-key-lighting: {1: 10494192, 2: 10494192, 3: 10494192, 4: 10494192, 5: 10494192, 6: 10494192, 7: 10494192, 8: 10494192}
   report_rate: 1
   rgb_control: 1
-  rgb_zone_1: !LEDEffectSetting {ID: 1, color: 10494192, intensity: 100, period: 5000, ramp: 0, speed: 0}
+  rgb_zone_1: !LEDEffectSetting {ID: 0, color: 10494192, intensity: 100, period: 5000, ramp: 0, speed: 0}
 - _NAME: G Powerplay
   _modelId: 405F00000000
   _sensitive: {hires-scroll-mode: ignore, hires-smooth-invert: ignore, hires-smooth-resolution: ignore, led_control: false, led_zone_2: false}
