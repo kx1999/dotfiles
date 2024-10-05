@@ -26,3 +26,5 @@ RPROMPT="[%F{green}%h%f]"
 export PATH=$PATH:$HOME/.local/bin
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias xcd='cd "$(xplr --print-pwd-as-result)"'
+
+export PATH=$PATH:/home/kylex/.spicetify

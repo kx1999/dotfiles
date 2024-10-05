@@ -240,7 +240,7 @@
             "custom/separator#line"
         ],
         "drawer": {
-            "click-to-reveal": true,
+            "click-to-reveal": false,
             "transition-duration": 250,
             "transition-left-to-right": false
         }
@@ -285,7 +285,7 @@
             "custom/separator#line",
         ],
         "drawer": {
-            "click-to-reveal": true,
+            "click-to-reveal": false,
             "transition-duration": 250,
             "transition-left-to-right": false
         }
