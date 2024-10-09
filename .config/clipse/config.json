@@ -1,7 +1,7 @@
 {
 
     "historyFile": "clipboard_history.json",
-    "maxHistory": 100,
+    "maxHistory": 1000,
     "allowDuplicates": false,
     "themeFile": "custom_theme.json",
     "tempDir": "tmp_files",
