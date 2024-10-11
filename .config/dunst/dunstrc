@@ -61,14 +61,14 @@
     progress_bar_max_width = 400
 
     # Corner radius for the progress bar. 0 disables rounded corners.
-    progress_bar_corner_radius = 15
+    progress_bar_corner_radius = 0
     progress_bar_corners = top-left, bottom-right
 
     # Highlight color (currently only used by progress bar)
     highlight = "#50FA7B"
 
     # Corner radius for the icon image.
-    icon_corner_radius = 35
+    icon_corner_radius = 0
     icon_corners = top-left, bottom-right
 
     # Show how many messages are currently hidden (because of
@@ -97,7 +97,7 @@
 
     # Defines width in pixels of frame around the notification window.
     # Set to 0 to disable.
-    frame_width = 1
+    frame_width = 2
 
     # Defines color of the frame around the notification window.
     frame_color = "#FF79C6"
@@ -260,7 +260,7 @@
     # corners.
     # The radius will be automatically lowered if it exceeds half of the
     # notification height to avoid clipping text and/or icons.
-    corner_radius = 45
+    corner_radius = 0
     corners = top-left, bottom-right
 
     # Ignore the dbus closeNotification message.
