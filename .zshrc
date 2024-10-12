@@ -28,3 +28,4 @@ alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias xcd='cd "$(xplr --print-pwd-as-result)"'
 
 export PATH=$PATH:/home/kylex/.spicetify
+export SYSTEMD_EDITOR=nvim
