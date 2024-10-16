@@ -4,7 +4,7 @@
     ### Display ###
 
     # Which monitor should the notifications be displayed on.
-    monitor = DP-2
+    monitor = 0
 
     # Display notification on focused monitor.  Possible modes are:
     #   mouse: follow mouse pointer
@@ -36,10 +36,10 @@
     offset = 50x50
 
     # Scale factor. It is auto-detected if value is 0.
-    scale = 2
+    scale = 0
 
     # Maximum number of notification (0 means no limit)
-    notification_limit = 20
+    notification_limit = 5
 
     ### Progress bar ###
 
@@ -52,7 +52,7 @@
     progress_bar_height = 10
 
     # Set the frame width of the progress bar
-    progress_bar_frame_width = 1
+    progress_bar_frame_width = 2
 
     # Set the minimum width for the progress bar
     progress_bar_min_width = 400
@@ -61,15 +61,15 @@
     progress_bar_max_width = 400
 
     # Corner radius for the progress bar. 0 disables rounded corners.
-    progress_bar_corner_radius = 0
-    progress_bar_corners = top-left, bottom-right
+    progress_bar_corner_radius = 4
+    progress_bar_corners = all
 
     # Highlight color (currently only used by progress bar)
     highlight = "#50FA7B"
 
     # Corner radius for the icon image.
-    icon_corner_radius = 0
-    icon_corners = top-left, bottom-right
+    icon_corner_radius = 4
+    icon_corners = all
 
     # Show how many messages are currently hidden (because of
     # notification_limit).
@@ -87,13 +87,13 @@
     separator_height = 2
 
     # Padding between text and separator.
-    padding = 8
+    padding = 10
 
     # Horizontal padding.
-    horizontal_padding = 15
+    horizontal_padding = 10
 
     # Padding between text and icon.
-    text_icon_padding = 15
+    text_icon_padding = 10
 
     # Defines width in pixels of frame around the notification window.
     # Set to 0 to disable.
@@ -122,7 +122,7 @@
     #  * urgency_ascending: sort by urgency (low then normal then critical)
     #  * urgency_descending: sort by urgency (critical then normal then low)
     #  * update: sort by update (most recent always at the top)
-    sort = yes
+    sort = id
 
     # Don't remove messages, if the user is idle (no mouse or keyboard input)
     # for longer than idle_threshold seconds.
@@ -199,7 +199,7 @@
     stack_duplicates = true
 
     # Hide the count of stacked notifications with the same content
-    hide_duplicate_count = false
+    hide_duplicate_count = true
 
     # Display indicators for URLs (U) and actions (A).
     show_indicators = no
@@ -260,8 +260,8 @@
     # corners.
     # The radius will be automatically lowered if it exceeds half of the
     # notification height to avoid clipping text and/or icons.
-    corner_radius = 0
-    corners = top-left, bottom-right
+    corner_radius = 4
+    corners = all
 
     # Ignore the dbus closeNotification message.
     # Useful to enforce the timeout set by dunst configuration. Without this
@@ -324,23 +324,23 @@
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the "#" and following would be interpreted as a comment.
-    background = "#282A36"
-    foreground = "#ffffff"
+    background = "#282A36CC"
+    foreground = "#BD93F9"
     timeout = 3
     # Icon for notifications with low urgency, uncomment to enable
     default_icon = /path/to/icon
 
 [urgency_normal]
-    background = "#282A36"
-    foreground = "#FFFFFF"
+    background = "#282A36CC"
+    foreground = "#BD93F9"
     timeout = 5
     override_pause_level = 30
     # Icon for notifications with normal urgency, uncomment to enable
     default_icon = /path/to/icon
 
 [urgency_critical]
-    background = "#282A36"
-    foreground = "#FFFFFF"
+    background = "#282A36CC"
+    foreground = "#BD93F9"
     frame_color = "#ff8888"
     timeout = 0
     override_pause_level = 60
