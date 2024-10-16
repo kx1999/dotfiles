@@ -6,8 +6,8 @@
 # Set variables for parameters
 A_2160=450
 B_2160=450
-A_1440=350
-B_1440=350
+A_1440=500
+B_1440=500
 A_1080=350
 B_1080=350
 A_720=50
@@ -30,7 +30,7 @@ if ((resolution >= 2160)); then
     wlogout --protocol layer-shell -b 3 -T $(awk "BEGIN {printf \"%.0f\", $A_2160 * 2160 * $hypr_scale / $resolution}") -B $(awk "BEGIN {printf \"%.0f\", $B_2160 * 2160 * $hypr_scale / $resolution}") &
     echo "Setting parameters for resolution >= 2160p"
 elif ((resolution >= 1440)); then
-    wlogout --protocol layer-shell -b 3 -T $(awk "BEGIN {printf \"%.0f\", $A_1440 * 1440 * $hypr_scale / $resolution}") -B $(awk "BEGIN {printf \"%.0f\", $B_1440 * 1440 * $hypr_scale / $resolution}") -s -c 75 -r 75 -L 800 -R 800 &
+    wlogout --protocol layer-shell -b 3 -T $(awk "BEGIN {printf \"%.0f\", $A_1440 * 1440 * $hypr_scale / $resolution}") -B $(awk "BEGIN {printf \"%.0f\", $B_1440 * 1440 * $hypr_scale / $resolution}") -s -c 50 -r 50 -L 1250 -R 1250 &
     echo "Setting parameters for resolution >= 1440p"
 elif ((resolution >= 1080)); then
     wlogout --protocol layer-shell -b 6 -T $(awk "BEGIN {printf \"%.0f\", $A_1080 * 1080 * $hypr_scale / $resolution}") -B $(awk "BEGIN {printf \"%.0f\", $B_1080 * 1080 * $hypr_scale / $resolution}") &
