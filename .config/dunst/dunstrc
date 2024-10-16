@@ -68,7 +68,7 @@
     highlight = "#50FA7B"
 
     # Corner radius for the icon image.
-    icon_corner_radius = 4
+    icon_corner_radius = 6
     icon_corners = all
 
     # Show how many messages are currently hidden (because of
@@ -173,7 +173,7 @@
     #   %n  progress value if set without any extra characters
     #   %%  Literal %
     # Markup is allowed
-    format = "<u><b>%a</b></u>\n<b>%s</b>\n%b"
+    format = "<span foreground='#50FA7B'><u><b>%a</b></u></span>\n<b>%s</b>\n%b"
 
     # Alignment of message text.
     # Possible values are "left", "center" and "right".
@@ -260,7 +260,7 @@
     # corners.
     # The radius will be automatically lowered if it exceeds half of the
     # notification height to avoid clipping text and/or icons.
-    corner_radius = 4
+    corner_radius = 6
     corners = all
 
     # Ignore the dbus closeNotification message.
@@ -325,14 +325,14 @@
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the "#" and following would be interpreted as a comment.
     background = "#282A36CC"
-    foreground = "#BD93F9"
+    foreground = "#F8F8F2"
     timeout = 3
     # Icon for notifications with low urgency, uncomment to enable
     default_icon = /path/to/icon
 
 [urgency_normal]
     background = "#282A36CC"
-    foreground = "#BD93F9"
+    foreground = "#F8F8F2"
     timeout = 5
     override_pause_level = 30
     # Icon for notifications with normal urgency, uncomment to enable
@@ -340,7 +340,7 @@
 
 [urgency_critical]
     background = "#282A36CC"
-    foreground = "#BD93F9"
+    foreground = "#F8F8F2"
     frame_color = "#ff8888"
     timeout = 0
     override_pause_level = 60
@@ -350,13 +350,13 @@
 
 [volume_notif]
     summary = "VOLUME NOTIFICATION"
-    format = "Volume: %p %b %a"
+    format = "Volume: <span foreground='#8BE9FD'>%p</span> %b %a"
     fullscreen = show
     history_ignore = yes
 
 [pause_notif]
     summary = "dunstPause"
-    format = "%a Notifications %b"
+    format = "%a Notifications <span foreground='#50FA7B'>%b</span>"
     override_pause_level = 110
     fullscreen = show
     history_ignore = yes

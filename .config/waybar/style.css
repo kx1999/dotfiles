@@ -7,6 +7,7 @@
     font-feature-settings: '"zero", "ss01", "ss02", "ss03", "ss04", "ss05", "cv31"';
     padding: 0px;
     margin: 0px;
+    transition: 0.15s;
 }
 
 @keyframes gradient_f {
@@ -32,7 +33,7 @@
     color: rgba(248, 248, 242, 0.8);
     background: rgba(40, 42, 54, 0.8);
     border-style: solid;
-    border-radius: 5px;
+    border-radius: 6px;
     padding: 0px 8px;
     margin-bottom: 0px;
 }
@@ -42,7 +43,7 @@
     color: rgba(248, 248, 242, 0.8);
     background: rgba(40, 42, 54, 0.8);
     border-style: solid;
-    border-radius: 5px;
+    border-radius: 6px;
     padding: 0px 8px;
 }
 
@@ -50,7 +51,7 @@
     color: rgba(248, 248, 242, 0.8);
     background: rgba(40, 42, 54, 0.8);
     border-style: solid;
-    border-radius: 5px;
+    border-radius: 6px;
     border-color: rgba(223, 133, 224, 0.8);
     font-size: 130%;
     font-weight: normal;
@@ -62,7 +63,7 @@ window#waybar {
 }
 
 window#waybar.hidden {
-    opacity: 0.15;
+    opacity: 0.5;
 }
 
 window#waybar.empty {
@@ -77,7 +78,7 @@ window#waybar.empty #window {
 tooltip {
     color: rgba(80, 250, 123, 0.8);
     background: rgba(0, 0, 0, 0.8);
-    border-radius: 5px;
+    border-radius: 6px;
     border-color: transparent;
 }
 
@@ -93,11 +94,10 @@ tooltip label {
 }
 
 #workspaces button {
-    color: rgba(248, 248, 242, 0.8);
     border-color: transparent;
     box-shadow: none;
     text-shadow: none;
-    border-radius: 5px;
+    border-radius: 6px;
     padding: 1px 3px;
     margin: 0px 2px;
     transition: all 0.2s cubic-bezier(0.1,0.5,0.1,1.8);
@@ -133,7 +133,7 @@ tooltip label {
     padding: 1px 10px;
     margin: 0px 5px;
     border-width: 1px;
-    border-radius: 5px;
+    border-radius: 6px;
     border-color: rgba(139,233,253,0.8) transparent;
     transition: all 0.3s cubic-bezier(0.1,0.5,0.1,1.8);
     animation: gradient_hover 1s infinite normal linear both;
@@ -141,7 +141,7 @@ tooltip label {
 
 #idle_inhibitor {
     border-color: rgba(255, 121, 198, 0.8);
-    transition: color 0.5s, border 0.5s;
+    transition: color 1.5s, border 1.5s;
     transition-timing-function: cubic-bezier(0.1,0.5,0.1,1.8);
 }
 
