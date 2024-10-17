@@ -1,14 +1,18 @@
 // -*- mode: jsonc -*-}
 // MAIN MONITOR
 {
-    "margin": 8,
+    "margin-left": 8,
+    "margin-right": 8,
+    "margin-bottom": 0,
+    "margin-top": 8,
     "layer": "top", // Waybar at top layer
     "position": "top", // Waybar position (top|bottom|left|right)
     //"width": 3300, // Waybar width
-    "spacing": 8, // Gaps between modules (4px)
+    "spacing": 4, // Gaps between modules (4px)
     "exclusive": false,
     "mode": "hide",
     "start_hidden": true,
+    "modifier-reset": "release",
     "reload_on_style_change": true,
 
     // Module placement

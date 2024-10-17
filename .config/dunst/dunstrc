@@ -65,7 +65,7 @@
     progress_bar_corners = all
 
     # Highlight color (currently only used by progress bar)
-    highlight = "#50FA7B"
+    highlight = "#8BE9FD"
 
     # Corner radius for the icon image.
     icon_corner_radius = 6
