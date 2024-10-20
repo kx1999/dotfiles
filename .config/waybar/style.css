@@ -29,6 +29,7 @@
 
 @keyframes blink-update {
     to {
+        border-color: rgba(139, 233, 253, 0.8);
         color: rgba(139, 233, 253, 0.8);
     }
 }
@@ -165,6 +166,7 @@ tooltip label {
 }
 
 #custom-pacman.pending-updates {
+    border-color: rgba(189, 147, 249, 0.8);
     color: rgba(189, 147, 249, 0.8);
     animation-name: blink-update;
     animation-timing-function: ease;
