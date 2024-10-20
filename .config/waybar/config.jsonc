@@ -75,7 +75,8 @@
             "updated": ""
         },
         "exec-if": "which waybar-updates",
-        "exec": "waybar-updates -n -l 5 -c 150"
+        "exec": "waybar-updates -n -l 5 -c 150",
+        "on-click": "kitty --class='pacman-update' -e yay -Syu --noconfirm"
     },
 
     "tray": {
@@ -116,8 +117,7 @@
         "interval": 1,
         "format-alt-click": "click",
         "format-alt": "{usage:>2}%   {icon0}{icon1}{icon2}{icon3}{icon4}{icon5}{icon6}{icon7}",
-        "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"],
-        "on-click-right": "gnome-system-monitor"
+        "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"]
     },
 
     "memory": {
