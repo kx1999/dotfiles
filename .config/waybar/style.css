@@ -27,6 +27,12 @@
     100% {color: rgba(255,85,85,0.85); border-color: rgba(255,85,85,0.5) transparent;}
 }
 
+@keyframes blink-update {
+    to {
+        color: rgba(139, 233, 253, 0.8);
+    }
+}
+
 /* -------- GENERAL MODULES CONFIG -------- */
 /* -------- LEFT GROUP -------- */
 #submap, #idle_inhibitor, #workspaces, #tray {
@@ -34,16 +40,18 @@
     background: rgba(40, 42, 54, 0.8);
     border-style: solid;
     border-radius: 6px;
+    border-color: rgba(255, 121, 198, 0.8);
     padding: 0px 8px;
     margin-bottom: 0px;
 }
 
 /* -------- RIGHT GROUP -------- */
-#misc, #motherboard, #custom-power, #audio {
+#misc, #motherboard, #custom-power, #audio, #custom-pacman {
     color: rgba(248, 248, 242, 0.8);
     background: rgba(40, 42, 54, 0.8);
     border-style: solid;
     border-radius: 6px;
+    border-color: rgba(189, 147, 249, 0.8);
     padding: 0px 8px;
 }
 
@@ -52,7 +60,7 @@
     background: rgba(40, 42, 54, 0.8);
     border-style: solid;
     border-radius: 6px;
-    border-color: rgba(223, 133, 224, 0.8);
+    border-color: rgba(221, 134, 224, 0.8);
     font-size: 130%;
     font-weight: normal;
     padding: 0px 16px;
@@ -89,7 +97,6 @@ tooltip label {
 }
 
 #workspaces {
-    border-color: rgba(249, 123, 204, 0.8);
     padding: 4px 7px;
 }
 
@@ -140,49 +147,12 @@ tooltip label {
 }
 
 #idle_inhibitor {
-    border-color: rgba(255, 121, 198, 0.8);
     transition: color 1.5s, border 1.5s;
     transition-timing-function: cubic-bezier(0.1,0.5,0.1,1.8);
 }
 
-#tray {
-    border-color: rgba(252, 122, 201, 0.8);
-}
-
 #submap {
-    border-color: rgba(246, 124, 207, 0.8);
     transition: all 0.5s cubic-bezier(0.1,0.5,0.1,1.8);
-}
-
-#misc {
-    border-color: rgba(197, 144, 243, 0.8);
-}
-
-#custom-weather {
-    border-color: rgba(197, 144, 243, 0.8);
-}
-
-#network {
-    border-color: rgba(197, 144, 243, 0.8);
-}
-
-#motherboard {
-    border-color: rgba(194, 145, 245, 0.8);
-}
-
-#audio {
-    border-color: rgba(191, 146, 248, 0.8);
-}
-
-#pulseaudio {
-    border-color: rgba(243, 78, 182, 0.8);
-}
-
-#cava {
-    border-color: rgba(250, 80, 176, 0.8);
-}
-#custom-playerctl {
-    border-color: rgba(191, 146, 248, 0.8);
 }
 
 #idle_inhibitor.activated {
@@ -190,6 +160,15 @@ tooltip label {
     color: rgba(255, 0, 96, 0.8);
 }
 
-#custom-power {
+#custom-pacman {
+    color: rgba(80, 250, 123, 0.8);
+}
+
+#custom-pacman.pending-updates {
     color: rgba(189, 147, 249, 0.8);
+    animation-name: blink-update;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
 }
