@@ -76,7 +76,7 @@
         },
         "exec-if": "which waybar-updates",
         "exec": "waybar-updates -d -n -l 15 -c 150",
-        "on-click": "kitty --class='pacman-update' -e yay -Syu --noconfirm"
+        "on-click": "kitty --class='pacman-update' -e yay -Syu --noconfirm --devel"
     },
 
     "tray": {
