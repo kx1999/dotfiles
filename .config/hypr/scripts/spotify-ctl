@@ -1,4 +1,4 @@
 #!/usr/bin/bash
 
-spotify &
+spotify --enable-features=UseOzonePlatform --ozone-platform=wayland &
 sleep 1 && hyprctl dispatch exec 'kitty -T spotify-player --class="spotify-player" -e spotify_player' &
