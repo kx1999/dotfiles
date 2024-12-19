@@ -284,7 +284,8 @@
         "waves": false,
         "noise_reduction": 0.5,
         "input_delay": 1,
-        "format-icons" : ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█" ]
+        "format-icons" : ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█" ],
+        "on-click": "easyeffects"
     },
 
     "group/audio": {
