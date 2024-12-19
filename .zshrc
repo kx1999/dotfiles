@@ -1,3 +1,4 @@
+
 # Created by newuser for 5.9
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
@@ -5,17 +6,10 @@ HISTSIZE=100000
 SAVEHIST=100000
 setopt autocd
 bindkey -v
-# End of lines configured by zsh-newuser-install
-# The following lines were added by compinstall
-zstyle :compinstall filename '$HOME/.zshrc'
-source /usr/share/zsh/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
-#setopt interactive_comments
 
-#autoload -U compinit && compinit
-#zstyle ':completion:*' menu select
-#zstyle ':completion:*' rehash true
-#zstyle ':completion::complete:*' gain-privileges 1
-# End of lines added by compinstall
+source /usr/share/zsh/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+
+setopt interactive_comments
 
 autoload -Uz promptinit
 promptinit
@@ -29,3 +23,13 @@ alias xcd='cd "$(xplr --print-pwd-as-result)"'
 
 export PATH=$PATH:/home/kylex/.spicetify
 export SYSTEMD_EDITOR=nvim
+
+
+# The following lines were added by compinstall
+
+zstyle ':completion:*' completer _complete _complete:-fuzzy _correct _approximate _ignored
+zstyle :compinstall filename '/home/kylex/.zshrc'
+
+autoload -Uz compinit
+compinit
+# End of lines added by compinstall
