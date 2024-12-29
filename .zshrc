@@ -23,7 +23,7 @@ alias xcd='cd "$(xplr --print-pwd-as-result)"'
 
 export PATH=$PATH:/home/kylex/.spicetify
 export SYSTEMD_EDITOR=nvim
-
+fastfetch
 
 # The following lines were added by compinstall
 
