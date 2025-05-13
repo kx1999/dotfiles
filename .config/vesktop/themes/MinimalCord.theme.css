@@ -18,14 +18,14 @@
         to get your desired RGB numbers. Then simply put each number in their respective area.
         R,G,B
     */
-    --accent: 50, 131, 207;
+    --accent: 80, 250, 123;
 
     --message-padding: 10px; /* Spacing in the messages. MUST END IN px | DEFAULT: 10px */
-    --message-spacing: 10px; /* Spacing around the messages. MUST END IN px | DEFAULT: 10px */
+    --message-spacing: 6px; /* Spacing around the messages. MUST END IN px | DEFAULT: 10px */
 
     /*
         To use a custom font. Visit https://fonts.google.com and select one to your liking.
         Now just follow this tutorial: https://imgur.com/a/CNbw7xC
     */
-    --font: 'Inter';
+    --font: 'GG Sans';
 }
